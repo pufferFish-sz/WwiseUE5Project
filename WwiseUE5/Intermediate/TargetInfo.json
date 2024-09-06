@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "WwiseUE5",
+			"Path": "..\\Source\\WwiseUE5.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "WwiseUE5Editor",
+			"Path": "..\\Source\\WwiseUE5Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
