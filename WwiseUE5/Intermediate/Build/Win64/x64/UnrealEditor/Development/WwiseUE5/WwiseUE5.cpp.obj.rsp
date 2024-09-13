@@ -1,11 +1,11 @@
-"C:\Users\shang\OneDrive\Documents\WwiseUE5\Source\WwiseUE5\WwiseUE5.cpp"
-/FI"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/FI"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\Definitions.WwiseUE5.h"
-/Yu"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h"
-/Fp"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
-/Fo"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.obj"
-/sourceDependencies "C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.dep.json"
-@"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.Shared.rsp"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Source\WwiseUE5\WwiseUE5.cpp"
+/FI"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/FI"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\Definitions.WwiseUE5.h"
+/Yu"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h"
+/Fp"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.pch"
+/Fo"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.obj"
+/sourceDependencies "C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.dep.json"
+@"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

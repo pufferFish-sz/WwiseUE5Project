@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Small Hit 2" ID="{24BB77B1-22E4-469C-8F17-0E025AD7A622}" ShortID="855848457">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Small Hit 2" ID="{2D2C2C0C-259E-4E6B-B4BE-BD0F68097C11}">
+							<Language>SFX</Language>
+							<AudioFile>Small Hit 2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1061081258"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Small Hit 2" ID="{2D2C2C0C-259E-4E6B-B4BE-BD0F68097C11}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

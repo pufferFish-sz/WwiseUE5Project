@@ -34,9 +34,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.obj"
-"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\Default.rc2.res"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.obj"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
@@ -66,7 +66,7 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\shang\OneDrive\Documents\WwiseUE5\Binaries\Win64\UnrealEditor-WwiseUE5.dll"
-/IMPLIB:"C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\UnrealEditor-WwiseUE5.sup.lib"
-/PDB:"C:\Users\shang\OneDrive\Documents\WwiseUE5\Binaries\Win64\UnrealEditor-WwiseUE5.pdb"
+/OUT:"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Binaries\Win64\UnrealEditor-WwiseUE5.dll"
+/IMPLIB:"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\UnrealEditor-WwiseUE5.sup.lib"
+/PDB:"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Binaries\Win64\UnrealEditor-WwiseUE5.pdb"
 /ignore:4078

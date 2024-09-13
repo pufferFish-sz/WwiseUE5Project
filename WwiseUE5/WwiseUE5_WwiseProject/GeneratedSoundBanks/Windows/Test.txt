@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1166392914	Play_Small_Hit_2			\Default Work Unit\Play_Small_Hit_2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1061081258	Small Hit 2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Small Hit 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Hit 2		98928
+

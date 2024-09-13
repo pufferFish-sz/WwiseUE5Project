@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WwiseUE5ModuleRules
-build_property.ProjectDir = C:\Users\shang\OneDrive\Documents\WwiseUE5\Intermediate\Build\BuildRulesProjects\WwiseUE5ModuleRules\
+build_property.ProjectDir = C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\BuildRulesProjects\WwiseUE5ModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

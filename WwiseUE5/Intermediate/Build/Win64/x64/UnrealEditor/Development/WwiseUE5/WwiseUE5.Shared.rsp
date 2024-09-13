@@ -1,5 +1,5 @@
 /I "."
-/I "C:\Users\shang\OneDrive\Documents\WwiseUE5\Source"
+/I "C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Source"
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"
