@@ -14,6 +14,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep_Grass" ID="{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}">
+					<ChildrenList>
+						<Action Name="" ID="{E34DD0B2-B8B7-4682-B441-891E7868F672}" ShortID="553719130">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Grass" ID="{385D1E1E-5123-44C2-8555-E198173C60A3}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump_Land" ID="{8C48E25D-CAA6-49A5-B934-28F045F27FF1}">
+					<ChildrenList>
+						<Action Name="" ID="{BBA07BF7-8A63-49CE-B16C-AC259343FC43}" ShortID="1618112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump_Land" ID="{81461B7C-68C2-4374-9584-D53CD8D1D3A0}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump_Up" ID="{4448A1AC-EE1D-4D76-BDE1-37CE61C7F97A}">
+					<ChildrenList>
+						<Action Name="" ID="{C16C5E9A-881B-4F4D-AB79-76F13DB53E93}" ShortID="790991952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump_Up" ID="{ABD54603-7E6C-41BD-A295-DF6CD9739B91}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

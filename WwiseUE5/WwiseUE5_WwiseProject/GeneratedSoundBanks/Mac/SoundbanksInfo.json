@@ -56,11 +56,75 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{CD68ED60-DA09-9F8D-7D74-60997E530883}",
+    "Hash": "{F3EB164C-5476-D358-ACBE-160E87955947}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
     "Media": [
+     {
+      "Id": "116938062",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_grass6.wav",
+      "CachePath": "SFX/footstep_grass6_284BB634.wem"
+     },
+     {
+      "Id": "468964522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_grass4.wav",
+      "CachePath": "SFX/footstep_grass4_5447422E.wem"
+     },
+     {
+      "Id": "501708608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_grass1.wav",
+      "CachePath": "SFX/footstep_grass1_51F6A67F.wem"
+     },
+     {
+      "Id": "531932346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_grass3.wav",
+      "CachePath": "SFX/footstep_grass3_94BAA0A9.wem"
+     },
+     {
+      "Id": "557128696",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump_Land.wav",
+      "CachePath": "SFX/Jump_Land_87C5395C.wem"
+     },
+     {
+      "Id": "693920030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_grass2.wav",
+      "CachePath": "SFX/footstep_grass2_1309C786.wem"
+     },
+     {
+      "Id": "712577792",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump_Up.wav",
+      "CachePath": "SFX/Jump_Up_63B03BCE.wem"
+     },
+     {
+      "Id": "1007515859",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "footstep_grass5.wav",
+      "CachePath": "SFX/footstep_grass5_F1FF86CD.wem"
+     },
      {
       "Id": "1061081258",
       "Language": "SFX",
@@ -71,6 +135,63 @@
      }
     ],
     "Events": [
+     {
+      "Id": "4207214003",
+      "Name": "Play_Footstep_Grass",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep_Grass",
+      "GUID": "{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22607484",
+      "DurationMax": "0.34498253",
+      "MediaRefs": [
+       {
+        "Id": "116938062"
+       },
+       {
+        "Id": "468964522"
+       },
+       {
+        "Id": "501708608"
+       },
+       {
+        "Id": "531932346"
+       },
+       {
+        "Id": "693920030"
+       },
+       {
+        "Id": "1007515859"
+       }
+      ]
+     },
+     {
+      "Id": "3297008698",
+      "Name": "Play_Jump_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump_Land",
+      "GUID": "{8C48E25D-CAA6-49A5-B934-28F045F27FF1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21979392",
+      "DurationMax": "0.21979392",
+      "MediaRefs": [
+       {
+        "Id": "557128696"
+       }
+      ]
+     },
+     {
+      "Id": "2372486210",
+      "Name": "Play_Jump_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump_Up",
+      "GUID": "{4448A1AC-EE1D-4D76-BDE1-37CE61C7F97A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20888461",
+      "DurationMax": "0.20888461",
+      "MediaRefs": [
+       {
+        "Id": "712577792"
+       }
+      ]
+     },
      {
       "Id": "1166392914",
       "Name": "Play_Small_Hit_2",
@@ -88,6 +209,6 @@
     ]
    }
   ],
-  "FileHash": "{0FC7ADD1-3D30-67CB-2FFF-8AF62DC40EDC}"
+  "FileHash": "{39476580-FD95-E8E6-35EC-BF650B176387}"
  }
 }

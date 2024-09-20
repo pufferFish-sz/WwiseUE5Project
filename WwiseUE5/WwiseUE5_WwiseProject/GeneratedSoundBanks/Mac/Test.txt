@@ -1,6 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1166392914	Play_Small_Hit_2			\Default Work Unit\Play_Small_Hit_2	
+	2372486210	Play_Jump_Up			\Default Work Unit\Play_Jump_Up	
+	3297008698	Play_Jump_Land			\Default Work Unit\Play_Jump_Land	
+	4207214003	Play_Footstep_Grass			\Default Work Unit\Play_Footstep_Grass	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	116938062	footstep_grass6	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass6_284BB634.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_Grass\footstep_grass6		46072
+	468964522	footstep_grass4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass4_5447422E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_Grass\footstep_grass4		52432
+	501708608	footstep_grass1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass1_51F6A67F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_Grass\footstep_grass1		43576
+	531932346	footstep_grass3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass3_94BAA0A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_Grass\footstep_grass3		58344
+	557128696	Jump_Land	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Jump_Land_87C5395C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Land		21196
+	693920030	footstep_grass2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass2_1309C786.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_Grass\footstep_grass2		54464
+	712577792	Jump_Up	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Jump_Up_63B03BCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Up		20148
+	1007515859	footstep_grass5	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass5_F1FF86CD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_Grass\footstep_grass5		66216
 	1061081258	Small Hit 2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Small Hit 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small Hit 2		98928
 
