@@ -7,6 +7,9 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\WwiseUE5Editor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseEvent.gen.cpp.obj"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.init.gen.cpp.obj"
 "C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseUE5.cpp.obj"
+"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\WwiseEvent.cpp.obj"
 "C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\Default.rc2.res"
 /OUT:"C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\Intermediate\Build\Win64\x64\UnrealEditor\Development\WwiseUE5\UnrealEditor-WwiseUE5.lib"

@@ -1,42 +1,42 @@
 {
   "version": 2,
-  "dgSpecHash": "XVNYWkB6roAK5RWSenWXnRS01YVIA47cwKdWCfY4wz6rCImyWiFJM55z/fOT8qXkGzHK0yl1EDdb3EoHiDq6sA==",
+  "dgSpecHash": "M1NBBKdEqq/iaflrpVNNkM44YCGxoL9WFTFPGcPD5cYrMymq8oQbQUIcbZ0T/CMNVo+4DiH6F8wCBTKIRtSugg==",
   "success": false,
   "projectFilePath": "C:\\Users\\shang\\OneDrive\\Documents\\Unreal Projects\\WwiseUE5Project\\WwiseUE5\\Intermediate\\Build\\BuildRulesProjects\\WwiseUE5ModuleRules\\WwiseUE5ModuleRules.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
+      "message": "Unable to find project information for 'C:\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
       "targetGraphs": [
         "net6.0"
       ]
     },
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
+      "message": "Unable to find project information for 'C:\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj",
       "targetGraphs": [
         "net6.0"
       ]
     },
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\Shared\\EpicGames.Build\\EpicGames.Build.csproj",
+      "message": "Unable to find project information for 'C:\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5Rules\\UE5Rules.csproj",
       "targetGraphs": [
         "net6.0"
       ]
     },
     {
-      "code": "NU1104",
+      "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\shang\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
+      "message": "Unable to find project information for 'C:\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Program Files (x86)\\UE_5.3\\Engine\\Source\\Programs\\UnrealBuildTool\\UnrealBuildTool.csproj",
       "targetGraphs": [
         "net6.0"
       ]
