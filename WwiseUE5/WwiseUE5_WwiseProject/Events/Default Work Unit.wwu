@@ -50,6 +50,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep" ID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}">
+					<ChildrenList>
+						<Action Name="" ID="{D2A11615-B24C-4834-9D12-78175BBCAED4}" ShortID="478632427">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{184B9D64-B924-4C1C-B89F-B28A9EBCB5E4}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Campfire_Loop" ID="{7C4A81A7-756D-4084-8156-B0F37C84EC40}">
+					<ChildrenList>
+						<Action Name="" ID="{F2921EA2-41DF-4CE2-AF32-3F5DE925EF11}" ShortID="950660749">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Campfire_Loop" ID="{8242E714-E394-428F-B20F-51DAC5F54C0F}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

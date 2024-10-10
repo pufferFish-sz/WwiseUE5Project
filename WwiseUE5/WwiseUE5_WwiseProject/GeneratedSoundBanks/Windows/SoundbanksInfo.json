@@ -49,6 +49,34 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4050929301",
+      "Name": "Materials",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Materials",
+      "GUID": "{4BE7164B-3838-470D-9B69-1A561DD7C48B}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Wood",
+        "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Water",
+        "GUID": "{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Grass",
+        "GUID": "{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"
+       }
+      ]
+     }
     ]
    },
    {
@@ -56,18 +84,42 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{F3EB164C-5476-D358-ACBE-160E87955947}",
+    "Hash": "{76CB3281-A86D-1B7B-F884-25D82DBC926C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
     "Media": [
+     {
+      "Id": "113599525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Wood2.wav",
+      "CachePath": "SFX/Footstep_Wood2_034304D3.wem"
+     },
      {
       "Id": "116938062",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass6.wav",
-      "CachePath": "SFX/footstep_grass6_284BB634.wem"
+      "CachePath": "SFX/footstep_grass6_3140B353.wem"
+     },
+     {
+      "Id": "210569290",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Water_003.wav",
+      "CachePath": "SFX/Footstep_Water_003_F9BE5579.wem"
+     },
+     {
+      "Id": "449919700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Wood3.wav",
+      "CachePath": "SFX/Footstep_Wood3_8340617C.wem"
      },
      {
       "Id": "468964522",
@@ -75,7 +127,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass4.wav",
-      "CachePath": "SFX/footstep_grass4_5447422E.wem"
+      "CachePath": "SFX/footstep_grass4_1F9EDD67.wem"
      },
      {
       "Id": "501708608",
@@ -83,7 +135,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass1.wav",
-      "CachePath": "SFX/footstep_grass1_51F6A67F.wem"
+      "CachePath": "SFX/footstep_grass1_209E4C5D.wem"
      },
      {
       "Id": "531932346",
@@ -91,7 +143,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass3.wav",
-      "CachePath": "SFX/footstep_grass3_94BAA0A9.wem"
+      "CachePath": "SFX/footstep_grass3_B58CF285.wem"
      },
      {
       "Id": "557128696",
@@ -99,7 +151,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jump_Land.wav",
-      "CachePath": "SFX/Jump_Land_87C5395C.wem"
+      "CachePath": "SFX/Jump_Land_7F0FAFF8.wem"
+     },
+     {
+      "Id": "637852463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Water_006.wav",
+      "CachePath": "SFX/Footstep_Water_006_89AB63C9.wem"
+     },
+     {
+      "Id": "684262849",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Water_001.wav",
+      "CachePath": "SFX/Footstep_Water_001_93A73EE2.wem"
+     },
+     {
+      "Id": "692327756",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Water_002.wav",
+      "CachePath": "SFX/Footstep_Water_002_D0FE1B5B.wem"
      },
      {
       "Id": "693920030",
@@ -107,7 +183,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass2.wav",
-      "CachePath": "SFX/footstep_grass2_1309C786.wem"
+      "CachePath": "SFX/footstep_grass2_86219B88.wem"
      },
      {
       "Id": "712577792",
@@ -115,7 +191,47 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jump_Up.wav",
-      "CachePath": "SFX/Jump_Up_63B03BCE.wem"
+      "CachePath": "SFX/Jump_Up_B178F9A7.wem"
+     },
+     {
+      "Id": "772508796",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Water_005.wav",
+      "CachePath": "SFX/Footstep_Water_005_A029C02D.wem"
+     },
+     {
+      "Id": "794782841",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Campfire_Loop.wav",
+      "CachePath": "SFX/Campfire_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "871402874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Wood1.wav",
+      "CachePath": "SFX/Footstep_Wood1_9202A210.wem"
+     },
+     {
+      "Id": "978367020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Water_004.wav",
+      "CachePath": "SFX/Footstep_Water_004_B7BEDAFD.wem"
+     },
+     {
+      "Id": "997424618",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Wood5.wav",
+      "CachePath": "SFX/Footstep_Wood5_375E8671.wem"
      },
      {
       "Id": "1007515859",
@@ -123,7 +239,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass5.wav",
-      "CachePath": "SFX/footstep_grass5_F1FF86CD.wem"
+      "CachePath": "SFX/footstep_grass5_27DC55D5.wem"
      },
      {
       "Id": "1061081258",
@@ -136,13 +252,116 @@
     ],
     "Events": [
      {
+      "Id": "4257633926",
+      "Name": "Play_Campfire_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Campfire_Loop",
+      "GUID": "{7C4A81A7-756D-4084-8156-B0F37C84EC40}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "794782841"
+       }
+      ]
+     },
+     {
+      "Id": "1602358412",
+      "Name": "Play_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
+      "GUID": "{B8A8444E-33D2-43EE-B083-671DCE91E9C4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13394888",
+      "DurationMax": "0.63941246",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "2654748154",
+         "GUID": "{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "210569290"
+         },
+         {
+          "Id": "637852463"
+         },
+         {
+          "Id": "684262849"
+         },
+         {
+          "Id": "692327756"
+         },
+         {
+          "Id": "772508796"
+         },
+         {
+          "Id": "978367020"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "4248645337",
+         "GUID": "{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "116938062"
+         },
+         {
+          "Id": "468964522"
+         },
+         {
+          "Id": "501708608"
+         },
+         {
+          "Id": "531932346"
+         },
+         {
+          "Id": "693920030"
+         },
+         {
+          "Id": "1007515859"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "2058049674",
+         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "113599525"
+         },
+         {
+          "Id": "449919700"
+         },
+         {
+          "Id": "871402874"
+         },
+         {
+          "Id": "997424618"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "4207214003",
       "Name": "Play_Footstep_Grass",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep_Grass",
       "GUID": "{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}",
       "DurationType": "OneShot",
-      "DurationMin": "0.22607484",
-      "DurationMax": "0.34498253",
+      "DurationMin": "0.22620547",
+      "DurationMax": "0.34478334",
       "MediaRefs": [
        {
         "Id": "116938062"
@@ -206,9 +425,37 @@
        }
       ]
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4050929301",
+      "Name": "Materials",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Materials",
+      "GUID": "{4BE7164B-3838-470D-9B69-1A561DD7C48B}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Wood",
+        "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Water",
+        "GUID": "{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Grass",
+        "GUID": "{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{0FCB26B7-31C8-A8EF-43F9-2319EB271C58}"
+  "FileHash": "{5BEE659C-0C3E-07E7-A0D4-B7FDFC0C8543}"
  }
 }

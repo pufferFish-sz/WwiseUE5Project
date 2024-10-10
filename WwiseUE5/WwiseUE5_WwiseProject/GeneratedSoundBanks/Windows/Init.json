@@ -41,9 +41,37 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "4050929301",
+      "Name": "Materials",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Materials",
+      "GUID": "{4BE7164B-3838-470D-9B69-1A561DD7C48B}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Wood",
+        "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Water",
+        "GUID": "{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Grass",
+        "GUID": "{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{304223C8-8549-CA8B-7C1A-53782ACEA4CD}"
+  "FileHash": "{EFEE504B-5F1B-7B81-0273-A49609591606}"
  }
 }
