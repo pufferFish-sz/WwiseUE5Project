@@ -84,7 +84,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{76CB3281-A86D-1B7B-F884-25D82DBC926C}",
+    "Hash": "{954254D7-926D-8734-DC0E-5A04E9ADC1AC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -112,6 +112,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Water_003.wav",
       "CachePath": "SFX/Footstep_Water_003_F9BE5579.wem"
+     },
+     {
+      "Id": "425759577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wind_Turbine_Swoosh.wav",
+      "CachePath": "SFX/Wind_Turbine_Swoosh_7B510255.wem"
      },
      {
       "Id": "449919700",
@@ -216,6 +224,22 @@
       "Location": "Memory",
       "ShortName": "Footstep_Wood1.wav",
       "CachePath": "SFX/Footstep_Wood1_9202A210.wem"
+     },
+     {
+      "Id": "938415071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Small_Church_Bell.wav",
+      "CachePath": "SFX/Small_Church_Bell_818F3B66.wem"
+     },
+     {
+      "Id": "955207780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lake_Shore_Abmiance.wav",
+      "CachePath": "SFX/Lake_Shore_Abmiance_3732A74F.wem"
      },
      {
       "Id": "978367020",
@@ -412,6 +436,34 @@
       ]
      },
      {
+      "Id": "3388816258",
+      "Name": "Play_Lake_Shore_Abmiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lake_Shore_Abmiance",
+      "GUID": "{7B3CBD3A-29DB-42C1-9483-F6CC600D7CE7}",
+      "MaxAttenuation": "8000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "955207780"
+       }
+      ]
+     },
+     {
+      "Id": "2426179657",
+      "Name": "Play_Small_Church_Bell",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Small_Church_Bell",
+      "GUID": "{299310E2-16E3-471F-8783-C9586B599792}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "4.198219",
+      "DurationMax": "4.198219",
+      "MediaRefs": [
+       {
+        "Id": "938415071"
+       }
+      ]
+     },
+     {
       "Id": "1166392914",
       "Name": "Play_Small_Hit_2",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Small_Hit_2",
@@ -422,6 +474,19 @@
       "MediaRefs": [
        {
         "Id": "1061081258"
+       }
+      ]
+     },
+     {
+      "Id": "772514170",
+      "Name": "Play_Wind_Turbine_Swoosh",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wind_Turbine_Swoosh",
+      "GUID": "{20465C01-CE63-485E-AC12-521E730C8983}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "425759577"
        }
       ]
      }
@@ -456,6 +521,6 @@
     ]
    }
   ],
-  "FileHash": "{14B3D6CA-9FEB-4AF0-7111-9B68F9EC0BDA}"
+  "FileHash": "{DFCE76D8-34AB-2500-68BE-3975672757FB}"
  }
 }

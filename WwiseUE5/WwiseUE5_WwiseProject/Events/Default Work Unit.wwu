@@ -72,6 +72,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Lake_Shore_Abmiance" ID="{7B3CBD3A-29DB-42C1-9483-F6CC600D7CE7}">
+					<ChildrenList>
+						<Action Name="" ID="{4B1E2EDA-BC34-49FB-8096-BFA76FB8CB01}" ShortID="785814528">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lake_Shore_Abmiance" ID="{C8C69B9A-F59A-4743-80EA-7E332334D3FC}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wind_Turbine_Swoosh" ID="{20465C01-CE63-485E-AC12-521E730C8983}">
+					<ChildrenList>
+						<Action Name="" ID="{7A6751CC-5CD7-4847-9850-3D759485DD62}" ShortID="440732477">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind_Turbine_Swoosh" ID="{8D8A665C-C35D-4FE0-88B5-936CB4059BF1}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Small_Church_Bell" ID="{299310E2-16E3-471F-8783-C9586B599792}">
+					<ChildrenList>
+						<Action Name="" ID="{8DCB5A94-836B-41EA-B2B3-4C6054BFE4C9}" ShortID="399427992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Small_Church_Bell" ID="{6855A3B5-2E9C-41AE-9E99-8B7B045F001C}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

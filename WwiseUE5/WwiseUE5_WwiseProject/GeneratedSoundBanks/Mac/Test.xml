@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{76CB3281-A86D-1B7B-F884-25D82DBC926C}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{954254D7-926D-8734-DC0E-5A04E9ADC1AC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="210569290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_003.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_003_F9BE5579.wem</CachePath>
+				</File>
+				<File Id="425759577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind_Turbine_Swoosh.wav</ShortName>
+					<CachePath>SFX/Wind_Turbine_Swoosh_7B510255.wem</CachePath>
 				</File>
 				<File Id="449919700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood3.wav</ShortName>
@@ -69,6 +73,14 @@
 				<File Id="871402874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood1.wav</ShortName>
 					<CachePath>SFX/Footstep_Wood1_9202A210.wem</CachePath>
+				</File>
+				<File Id="938415071" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small_Church_Bell.wav</ShortName>
+					<CachePath>SFX/Small_Church_Bell_818F3B66.wem</CachePath>
+				</File>
+				<File Id="955207780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lake_Shore_Abmiance.wav</ShortName>
+					<CachePath>SFX/Lake_Shore_Abmiance_3732A74F.wem</CachePath>
 				</File>
 				<File Id="978367020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_004.wav</ShortName>
@@ -148,9 +160,24 @@
 						<MediaRef Id="712577792"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3388816258" Name="Play_Lake_Shore_Abmiance" ObjectPath="\Events\Default Work Unit\Play_Lake_Shore_Abmiance" GUID="{7B3CBD3A-29DB-42C1-9483-F6CC600D7CE7}" MaxAttenuation="8000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="955207780"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2426179657" Name="Play_Small_Church_Bell" ObjectPath="\Events\Default Work Unit\Play_Small_Church_Bell" GUID="{299310E2-16E3-471F-8783-C9586B599792}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="4.198219" DurationMax="4.198219">
+					<MediaRefs>
+						<MediaRef Id="938415071"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1166392914" Name="Play_Small_Hit_2" ObjectPath="\Events\Default Work Unit\Play_Small_Hit_2" GUID="{82CE6C69-F7B8-4EF8-A672-C0AB295E2DF6}" DurationType="OneShot" DurationMin="0.51476043" DurationMax="0.51476043">
 					<MediaRefs>
 						<MediaRef Id="1061081258"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="772514170" Name="Play_Wind_Turbine_Swoosh" ObjectPath="\Events\Default Work Unit\Play_Wind_Turbine_Swoosh" GUID="{20465C01-CE63-485E-AC12-521E730C8983}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="425759577"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -165,5 +192,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{88A60574-1CB4-076F-51D2-735335521BB9}</FileHash>
+	<FileHash>{B20ED282-91F7-6349-B443-32E85C35C9BD}</FileHash>
 </SoundBanksInfo>
