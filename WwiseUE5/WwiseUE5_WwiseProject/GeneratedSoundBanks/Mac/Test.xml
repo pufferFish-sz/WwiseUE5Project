@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{954254D7-926D-8734-DC0E-5A04E9ADC1AC}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{1D27980B-7142-E001-C9F4-8ED81F6E5AC5}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -20,7 +20,7 @@
 				</File>
 				<File Id="425759577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind_Turbine_Swoosh.wav</ShortName>
-					<CachePath>SFX/Wind_Turbine_Swoosh_7B510255.wem</CachePath>
+					<CachePath>SFX/Wind_Turbine_Swoosh_39A290BD.wem</CachePath>
 				</File>
 				<File Id="449919700" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood3.wav</ShortName>
@@ -80,7 +80,7 @@
 				</File>
 				<File Id="955207780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lake_Shore_Abmiance.wav</ShortName>
-					<CachePath>SFX/Lake_Shore_Abmiance_3732A74F.wem</CachePath>
+					<CachePath>SFX/Lake_Shore_Abmiance_897DC6BA.wem</CachePath>
 				</File>
 				<File Id="978367020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_004.wav</ShortName>
@@ -106,6 +106,9 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.13394888" DurationMax="0.63941246">
+					<AuxBusRefs>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2654748154" GUID="{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"/>
@@ -149,6 +152,9 @@
 						<MediaRef Id="693920030"/>
 						<MediaRef Id="1007515859"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="3297008698" Name="Play_Jump_Land" ObjectPath="\Events\Default Work Unit\Play_Jump_Land" GUID="{8C48E25D-CAA6-49A5-B934-28F045F27FF1}" DurationType="OneShot" DurationMin="0.21979392" DurationMax="0.21979392">
 					<MediaRefs>
@@ -192,5 +198,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B20ED282-91F7-6349-B443-32E85C35C9BD}</FileHash>
+	<FileHash>{AD47CDE7-DD0B-655E-4287-63E3FCEBE4B2}</FileHash>
 </SoundBanksInfo>

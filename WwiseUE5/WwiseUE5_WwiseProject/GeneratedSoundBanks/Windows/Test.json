@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{954254D7-926D-8734-DC0E-5A04E9ADC1AC}",
+    "Hash": "{1D27980B-7142-E001-C9F4-8ED81F6E5AC5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -45,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wind_Turbine_Swoosh.wav",
-      "CachePath": "SFX/Wind_Turbine_Swoosh_7B510255.wem"
+      "CachePath": "SFX/Wind_Turbine_Swoosh_39A290BD.wem"
      },
      {
       "Id": "449919700",
@@ -165,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Lake_Shore_Abmiance.wav",
-      "CachePath": "SFX/Lake_Shore_Abmiance_3732A74F.wem"
+      "CachePath": "SFX/Lake_Shore_Abmiance_897DC6BA.wem"
      },
      {
       "Id": "978367020",
@@ -222,6 +222,14 @@
       "DurationType": "OneShot",
       "DurationMin": "0.13394888",
       "DurationMax": "0.63941246",
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -330,6 +338,14 @@
        },
        {
         "Id": "1007515859"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
        }
       ]
      },
@@ -447,6 +463,6 @@
     ]
    }
   ],
-  "FileHash": "{778B8CE3-655E-B63B-E565-83B1860B6C03}"
+  "FileHash": "{92FA41A7-3B64-BDEC-98B9-4939403D80E7}"
  }
 }

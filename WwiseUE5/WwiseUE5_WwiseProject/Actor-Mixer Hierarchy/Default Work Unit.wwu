@@ -115,6 +115,9 @@
 						<Reference Name="SwitchGroupOrStateGroup">
 							<ObjectRef Name="Materials" ID="{4BE7164B-3838-470D-9B69-1A561DD7C48B}" WorkUnitID="{051F08F8-1734-4E0A-904F-EA86F2D2373C}"/>
 						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Forest" ID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Footstep_Grass" ID="{385D1E1E-5123-44C2-8555-E198173C60A3}" ShortID="737527022">
@@ -394,6 +397,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -547,9 +555,14 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Footstep_Water" ID="{9BFEDB24-046A-4E94-9F17-3D544D87AAC4}" ShortID="792474032">
 							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>39</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>7</Value>
+										<Value>13</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -576,6 +589,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -810,6 +828,11 @@
 									<Modifier Name="" ID="{B194D133-6330-4C67-97A8-A3E85623D8C7}"/>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>

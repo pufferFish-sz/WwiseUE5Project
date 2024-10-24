@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "Hash": "{8EA4E86A-F49D-33FF-3F1A-5C250D17872E}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,6 +48,14 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "491961918",
+      "Name": "Forest",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+      "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
      }
     ],
     "SwitchGroups": [
@@ -84,7 +92,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{954254D7-926D-8734-DC0E-5A04E9ADC1AC}",
+    "Hash": "{1D27980B-7142-E001-C9F4-8ED81F6E5AC5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -119,7 +127,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Wind_Turbine_Swoosh.wav",
-      "CachePath": "SFX/Wind_Turbine_Swoosh_7B510255.wem"
+      "CachePath": "SFX/Wind_Turbine_Swoosh_39A290BD.wem"
      },
      {
       "Id": "449919700",
@@ -239,7 +247,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Lake_Shore_Abmiance.wav",
-      "CachePath": "SFX/Lake_Shore_Abmiance_3732A74F.wem"
+      "CachePath": "SFX/Lake_Shore_Abmiance_897DC6BA.wem"
      },
      {
       "Id": "978367020",
@@ -296,6 +304,14 @@
       "DurationType": "OneShot",
       "DurationMin": "0.13394888",
       "DurationMax": "0.63941246",
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -404,6 +420,14 @@
        },
        {
         "Id": "1007515859"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
        }
       ]
      },
@@ -521,6 +545,6 @@
     ]
    }
   ],
-  "FileHash": "{DFCE76D8-34AB-2500-68BE-3975672757FB}"
+  "FileHash": "{D8CBA324-554B-279A-DE68-4A475D9C795A}"
  }
 }
