@@ -105,6 +105,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Dog_Bark" ID="{13B82B7B-A735-4FC6-8019-B3B98D3785CE}">
+					<ChildrenList>
+						<Action Name="" ID="{E1CCBC1C-8DBE-4041-B6D7-BDA095A5A243}" ShortID="492922370">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dog_Bark" ID="{95D7AF87-DD7C-4F06-BD3D-EE17651B1C41}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Birdcall_Loop" ID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}">
+					<ChildrenList>
+						<Action Name="" ID="{7F176B65-D740-44DD-9135-BE25ACCCD684}" ShortID="267906729">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birdcall_Loop" ID="{5A092056-6E4C-4078-A8AF-9B86F5B1DBCA}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

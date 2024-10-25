@@ -4,9 +4,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
 	2372486210	Play_Jump_Up			\Default Work Unit\Play_Jump_Up	
 	2426179657	Play_Small_Church_Bell			\Default Work Unit\Play_Small_Church_Bell	
+	2632436053	Play_Dog_Bark			\Default Work Unit\Play_Dog_Bark	
 	3297008698	Play_Jump_Land			\Default Work Unit\Play_Jump_Land	
 	3388816258	Play_Lake_Shore_Abmiance			\Default Work Unit\Play_Lake_Shore_Abmiance	
 	4207214003	Play_Footstep_Grass			\Default Work Unit\Play_Footstep_Grass	
+	4210292500	Play_Birdcall_Loop			\Default Work Unit\Play_Birdcall_Loop	
 	4257633926	Play_Campfire_Loop			\Default Work Unit\Play_Campfire_Loop	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -18,6 +20,7 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	Grass	Materials			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6115457	Birdcall_Loop	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Birdcall_Loop_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Birdcall_Loop		6358532
 	113599525	Footstep_Wood2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Wood2_034304D3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Wood\Footstep_Wood2		25860
 	116938062	footstep_grass6	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass6_3140B353.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Grass\footstep_grass6		46072
 	210569290	Footstep_Water_003	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Water_003_F9BE5579.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Water\Footstep_Water_003		122828
@@ -26,15 +29,18 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	468964522	footstep_grass4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass4_1F9EDD67.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Grass\footstep_grass4		52432
 	501708608	footstep_grass1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass1_209E4C5D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Grass\footstep_grass1		43576
 	531932346	footstep_grass3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass3_B58CF285.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Grass\footstep_grass3		58344
+	546444098	dogbark1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\dogbark1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dog_Bark\dogbark1		1044476
 	557128696	Jump_Land	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Jump_Land_7F0FAFF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Land		21196
 	637852463	Footstep_Water_006	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Water_006_89AB63C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Water\Footstep_Water_006		106068
 	684262849	Footstep_Water_001	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Water_001_93A73EE2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Water\Footstep_Water_001		93384
 	692327756	Footstep_Water_002	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Water_002_D0FE1B5B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Water\Footstep_Water_002		108652
 	693920030	footstep_grass2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\footstep_grass2_86219B88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Grass\footstep_grass2		54464
 	712577792	Jump_Up	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Jump_Up_B178F9A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump_Up		20148
+	763336300	dogbark3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\dogbark3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dog_Bark\dogbark3		971304
 	772508796	Footstep_Water_005	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Water_005_A029C02D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Water\Footstep_Water_005		92932
 	794782841	Campfire_Loop	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Campfire_Loop_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Campfire_Loop		11520096
 	871402874	Footstep_Wood1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Wood1_9202A210.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Wood\Footstep_Wood1		27932
+	880943153	dogbark2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\dogbark2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dog_Bark\dogbark2		485700
 	938415071	Small_Church_Bell	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Small_Church_Bell_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Small_Church_Bell		806152
 	955207780	Lake_Shore_Abmiance	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Lake_Shore_Abmiance_897DC6BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Lake_Shore_Abmiance		38231088
 	978367020	Footstep_Water_004	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Mac\SFX\Footstep_Water_004_B7BEDAFD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep\Footstep_Water\Footstep_Water_004		113444

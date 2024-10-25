@@ -10,7 +10,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="Forest" ID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}">
+						<AuxBus Name="LakeSide" ID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}">
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -18,7 +18,58 @@
 											<EffectSlot Name="" ID="{70B1E88D-39F3-404E-8254-2DB6E3CA42F2}" ShortID="822717077">
 												<ReferenceList>
 													<Reference Name="Effect" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
-														<ObjectRef Name="ForestVerb" ID="{A0E82D40-8B3C-48C3-92B2-77664B9CD2D2}" WorkUnitID="{AF92FC2F-49B7-44FC-AC3F-A5FEC0C86684}"/>
+														<ObjectRef Name="RiverVerb" ID="{A0E82D40-8B3C-48C3-92B2-77664B9CD2D2}" WorkUnitID="{AF92FC2F-49B7-44FC-AC3F-A5FEC0C86684}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="Forest" ID="{BBFFE3F1-0D37-4859-ADD5-650070190771}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{6930CB3E-CAA7-4736-A943-B8600ADC7AEB}" ShortID="246340031">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+														<ObjectRef Name="ForestVerb" ID="{01AE1A3B-885A-40A3-8173-A1D9A5E8FDC0}" WorkUnitID="{AF92FC2F-49B7-44FC-AC3F-A5FEC0C86684}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="MediumRoom" ID="{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{566D3529-ACFF-42DE-8F92-202BED1AB931}" ShortID="240196718">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<AuxBus Name="SmallRoom" ID="{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{17B7F55C-DC24-4C05-8FD4-464A6F80DC38}" ShortID="1069206347">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 													</Reference>
 												</ReferenceList>
 											</EffectSlot>

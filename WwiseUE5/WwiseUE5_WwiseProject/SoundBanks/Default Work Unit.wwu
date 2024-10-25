@@ -9,11 +9,13 @@
 						<ObjectRef Name="Play_Lake_Shore_Abmiance" ID="{7B3CBD3A-29DB-42C1-9483-F6CC600D7CE7}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Small_Church_Bell" ID="{299310E2-16E3-471F-8783-C9586B599792}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Birdcall_Loop" ID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wind_Turbine_Swoosh" ID="{20465C01-CE63-485E-AC12-521E730C8983}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jump_Land" ID="{8C48E25D-CAA6-49A5-B934-28F045F27FF1}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jump_Up" ID="{4448A1AC-EE1D-4D76-BDE1-37CE61C7F97A}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep_Grass" ID="{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Small_Hit_2" ID="{82CE6C69-F7B8-4EF8-A672-C0AB295E2DF6}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Dog_Bark" ID="{13B82B7B-A735-4FC6-8019-B3B98D3785CE}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

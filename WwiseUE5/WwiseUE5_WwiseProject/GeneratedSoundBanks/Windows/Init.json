@@ -10,11 +10,29 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{26A818AC-6C30-9DF3-204E-AE4EE30F2210}",
+    "Hash": "{6BD50F2E-3DBB-5620-1488-B18997788253}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -47,7 +65,39 @@
       "Id": "491961918",
       "Name": "Forest",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+      "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+     },
+     {
+      "Id": "1245295233",
+      "Name": "MediumRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MediumRoom",
+      "GUID": "{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2190861365",
+      "Name": "LakeSide",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\LakeSide",
       "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
+     },
+     {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallRoom",
+      "GUID": "{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
      }
     ],
     "SwitchGroups": [
@@ -80,6 +130,6 @@
     ]
    }
   ],
-  "FileHash": "{46356E2D-FC7C-F93A-FF9B-AAC88F9085C3}"
+  "FileHash": "{BA9A9B46-20FD-BC66-2588-9ECD2180668C}"
  }
 }

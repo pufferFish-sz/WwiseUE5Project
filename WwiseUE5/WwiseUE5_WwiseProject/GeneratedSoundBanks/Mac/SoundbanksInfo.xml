@@ -9,11 +9,15 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8EA4E86A-F49D-33FF-3F1A-5C250D17872E}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{AA05DB86-C381-C94D-5307-C78217C9CD8B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{C29442AC-DD48-4516-B515-33A1E2DDBC42}" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{2DFB2116-C5C8-40E6-85F3-C3F48D2BCB72}" LibName="System" LibId="11403271"/>
@@ -23,7 +27,22 @@
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
 			<AuxBusses>
-				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+				<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MediumRoom" GUID="{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallRoom" GUID="{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{4BE7164B-3838-470D-9B69-1A561DD7C48B}">
@@ -35,11 +54,15 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{1D27980B-7142-E001-C9F4-8ED81F6E5AC5}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{560F7CBA-21B9-9202-50F0-796783697DE6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
 			<Media>
+				<File Id="6115457" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Birdcall_Loop.wav</ShortName>
+					<CachePath>SFX/Birdcall_Loop_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="113599525" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood2.wav</ShortName>
 					<CachePath>SFX/Footstep_Wood2_034304D3.wem</CachePath>
@@ -72,6 +95,10 @@
 					<ShortName>footstep_grass3.wav</ShortName>
 					<CachePath>SFX/footstep_grass3_B58CF285.wem</CachePath>
 				</File>
+				<File Id="546444098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dogbark1.wav</ShortName>
+					<CachePath>SFX/dogbark1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="557128696" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Jump_Land.wav</ShortName>
 					<CachePath>SFX/Jump_Land_7F0FAFF8.wem</CachePath>
@@ -96,6 +123,10 @@
 					<ShortName>Jump_Up.wav</ShortName>
 					<CachePath>SFX/Jump_Up_B178F9A7.wem</CachePath>
 				</File>
+				<File Id="763336300" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dogbark3.wav</ShortName>
+					<CachePath>SFX/dogbark3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="772508796" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_005.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_005_A029C02D.wem</CachePath>
@@ -107,6 +138,10 @@
 				<File Id="871402874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood1.wav</ShortName>
 					<CachePath>SFX/Footstep_Wood1_9202A210.wem</CachePath>
+				</File>
+				<File Id="880943153" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dogbark2.wav</ShortName>
+					<CachePath>SFX/dogbark2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="938415071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Church_Bell.wav</ShortName>
@@ -134,15 +169,27 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="4210292500" Name="Play_Birdcall_Loop" ObjectPath="\Events\Default Work Unit\Play_Birdcall_Loop" GUID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="6115457"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4257633926" Name="Play_Campfire_Loop" ObjectPath="\Events\Default Work Unit\Play_Campfire_Loop" GUID="{7C4A81A7-756D-4084-8156-B0F37C84EC40}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="794782841"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.13394888" DurationMax="0.63941246">
+				<Event Id="2632436053" Name="Play_Dog_Bark" ObjectPath="\Events\Default Work Unit\Play_Dog_Bark" GUID="{13B82B7B-A735-4FC6-8019-B3B98D3785CE}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.5291874" DurationMax="5.4394794">
+					<MediaRefs>
+						<MediaRef Id="546444098"/>
+						<MediaRef Id="763336300"/>
+						<MediaRef Id="880943153"/>
+					</MediaRefs>
 					<AuxBusRefs>
-						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.13394888" DurationMax="0.63941246">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2654748154" GUID="{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"/>
@@ -186,9 +233,6 @@
 						<MediaRef Id="693920030"/>
 						<MediaRef Id="1007515859"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="3297008698" Name="Play_Jump_Land" ObjectPath="\Events\Default Work Unit\Play_Jump_Land" GUID="{8C48E25D-CAA6-49A5-B934-28F045F27FF1}" DurationType="OneShot" DurationMin="0.21979392" DurationMax="0.21979392">
 					<MediaRefs>
@@ -215,10 +259,13 @@
 						<MediaRef Id="1061081258"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="772514170" Name="Play_Wind_Turbine_Swoosh" ObjectPath="\Events\Default Work Unit\Play_Wind_Turbine_Swoosh" GUID="{20465C01-CE63-485E-AC12-521E730C8983}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="772514170" Name="Play_Wind_Turbine_Swoosh" ObjectPath="\Events\Default Work Unit\Play_Wind_Turbine_Swoosh" GUID="{20465C01-CE63-485E-AC12-521E730C8983}" MaxAttenuation="3000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="425759577"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+					</AuxBusRefs>
 				</Event>
 			</Events>
 			<SwitchGroups>
@@ -232,5 +279,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{47D04E9C-593E-F375-0BE1-467E44E0DA39}</FileHash>
+	<FileHash>{7A2397CF-CF4E-9287-A8AA-7319C352189B}</FileHash>
 </SoundBanksInfo>

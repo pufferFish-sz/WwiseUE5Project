@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{1D27980B-7142-E001-C9F4-8ED81F6E5AC5}",
+    "Hash": "{560F7CBA-21B9-9202-50F0-796783697DE6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
     "Media": [
+     {
+      "Id": "6115457",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Birdcall_Loop.wav",
+      "CachePath": "SFX/Birdcall_Loop_FBC78EF0.wem"
+     },
      {
       "Id": "113599525",
       "Language": "SFX",
@@ -80,6 +88,14 @@
       "CachePath": "SFX/footstep_grass3_B58CF285.wem"
      },
      {
+      "Id": "546444098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dogbark1.wav",
+      "CachePath": "SFX/dogbark1_818F3B66.wem"
+     },
+     {
       "Id": "557128696",
       "Language": "SFX",
       "Streaming": "false",
@@ -128,6 +144,14 @@
       "CachePath": "SFX/Jump_Up_B178F9A7.wem"
      },
      {
+      "Id": "763336300",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dogbark3.wav",
+      "CachePath": "SFX/dogbark3_818F3B66.wem"
+     },
+     {
       "Id": "772508796",
       "Language": "SFX",
       "Streaming": "false",
@@ -150,6 +174,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Wood1.wav",
       "CachePath": "SFX/Footstep_Wood1_9202A210.wem"
+     },
+     {
+      "Id": "880943153",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dogbark2.wav",
+      "CachePath": "SFX/dogbark2_818F3B66.wem"
      },
      {
       "Id": "938415071",
@@ -202,6 +234,18 @@
     ],
     "Events": [
      {
+      "Id": "4210292500",
+      "Name": "Play_Birdcall_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Birdcall_Loop",
+      "GUID": "{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "6115457"
+       }
+      ]
+     },
+     {
       "Id": "4257633926",
       "Name": "Play_Campfire_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Campfire_Loop",
@@ -215,6 +259,35 @@
       ]
      },
      {
+      "Id": "2632436053",
+      "Name": "Play_Dog_Bark",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Dog_Bark",
+      "GUID": "{13B82B7B-A735-4FC6-8019-B3B98D3785CE}",
+      "MaxAttenuation": "5000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5291874",
+      "DurationMax": "5.4394794",
+      "MediaRefs": [
+       {
+        "Id": "546444098"
+       },
+       {
+        "Id": "763336300"
+       },
+       {
+        "Id": "880943153"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+       }
+      ]
+     },
+     {
       "Id": "1602358412",
       "Name": "Play_Footstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
@@ -222,14 +295,6 @@
       "DurationType": "OneShot",
       "DurationMin": "0.13394888",
       "DurationMax": "0.63941246",
-      "AuxBusRefs": [
-       {
-        "Id": "491961918",
-        "Name": "Forest",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
-        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
-       }
-      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -339,14 +404,6 @@
        {
         "Id": "1007515859"
        }
-      ],
-      "AuxBusRefs": [
-       {
-        "Id": "491961918",
-        "Name": "Forest",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
-        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
-       }
       ]
      },
      {
@@ -424,11 +481,19 @@
       "Name": "Play_Wind_Turbine_Swoosh",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Wind_Turbine_Swoosh",
       "GUID": "{20465C01-CE63-485E-AC12-521E730C8983}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "3000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "425759577"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
        }
       ]
      }
@@ -463,6 +528,6 @@
     ]
    }
   ],
-  "FileHash": "{92FA41A7-3B64-BDEC-98B9-4939403D80E7}"
+  "FileHash": "{8017CCB9-69FD-3E79-3C23-E59BB7D5D149}"
  }
 }
