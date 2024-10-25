@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{560F7CBA-21B9-9202-50F0-796783697DE6}",
+    "Hash": "{B4317651-D7A7-3305-9FA8-660D9E2D2FB9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -46,6 +46,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Water_003.wav",
       "CachePath": "SFX/Footstep_Water_003_F9BE5579.wem"
+     },
+     {
+      "Id": "355874403",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Market_Music_Loopable.wav",
+      "CachePath": "SFX/Market_Music_Loopable_FBC78EF0.wem"
      },
      {
       "Id": "425759577",
@@ -189,7 +197,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Small_Church_Bell.wav",
-      "CachePath": "SFX/Small_Church_Bell_818F3B66.wem"
+      "CachePath": "SFX/Small_Church_Bell_FBC78EF0.wem"
      },
      {
       "Id": "955207780",
@@ -448,17 +456,37 @@
       ]
      },
      {
+      "Id": "3402561667",
+      "Name": "Play_Market_Music_Loopable",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Market_Music_Loopable",
+      "GUID": "{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "355874403"
+       }
+      ]
+     },
+     {
       "Id": "2426179657",
       "Name": "Play_Small_Church_Bell",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Small_Church_Bell",
       "GUID": "{299310E2-16E3-471F-8783-C9586B599792}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "5000",
       "DurationType": "OneShot",
-      "DurationMin": "4.198219",
-      "DurationMax": "4.198219",
+      "DurationMin": "12.594656",
+      "DurationMax": "12.594656",
       "MediaRefs": [
        {
         "Id": "938415071"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
        }
       ]
      },
@@ -528,6 +556,6 @@
     ]
    }
   ],
-  "FileHash": "{8017CCB9-69FD-3E79-3C23-E59BB7D5D149}"
+  "FileHash": "{3669C1A6-5D63-0C2D-0D56-50CA0BC0990F}"
  }
 }

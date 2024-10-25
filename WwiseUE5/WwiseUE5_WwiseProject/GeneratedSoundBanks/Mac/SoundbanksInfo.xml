@@ -54,7 +54,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{560F7CBA-21B9-9202-50F0-796783697DE6}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{B4317651-D7A7-3305-9FA8-660D9E2D2FB9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -74,6 +74,10 @@
 				<File Id="210569290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_003.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_003_F9BE5579.wem</CachePath>
+				</File>
+				<File Id="355874403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Market_Music_Loopable.wav</ShortName>
+					<CachePath>SFX/Market_Music_Loopable_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="425759577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind_Turbine_Swoosh.wav</ShortName>
@@ -145,7 +149,7 @@
 				</File>
 				<File Id="938415071" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Small_Church_Bell.wav</ShortName>
-					<CachePath>SFX/Small_Church_Bell_818F3B66.wem</CachePath>
+					<CachePath>SFX/Small_Church_Bell_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="955207780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lake_Shore_Abmiance.wav</ShortName>
@@ -249,10 +253,18 @@
 						<MediaRef Id="955207780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2426179657" Name="Play_Small_Church_Bell" ObjectPath="\Events\Default Work Unit\Play_Small_Church_Bell" GUID="{299310E2-16E3-471F-8783-C9586B599792}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="4.198219" DurationMax="4.198219">
+				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="355874403"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2426179657" Name="Play_Small_Church_Bell" ObjectPath="\Events\Default Work Unit\Play_Small_Church_Bell" GUID="{299310E2-16E3-471F-8783-C9586B599792}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="12.594656" DurationMax="12.594656">
 					<MediaRefs>
 						<MediaRef Id="938415071"/>
 					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+					</AuxBusRefs>
 				</Event>
 				<Event Id="1166392914" Name="Play_Small_Hit_2" ObjectPath="\Events\Default Work Unit\Play_Small_Hit_2" GUID="{82CE6C69-F7B8-4EF8-A672-C0AB295E2DF6}" DurationType="OneShot" DurationMin="0.51476043" DurationMax="0.51476043">
 					<MediaRefs>
@@ -279,5 +291,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7A2397CF-CF4E-9287-A8AA-7319C352189B}</FileHash>
+	<FileHash>{AE3EC0DB-4A5E-74A8-9B7B-FA9CA347EBA6}</FileHash>
 </SoundBanksInfo>
