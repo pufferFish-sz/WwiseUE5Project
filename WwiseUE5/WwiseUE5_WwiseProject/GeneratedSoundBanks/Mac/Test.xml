@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{B4317651-D7A7-3305-9FA8-660D9E2D2FB9}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{73F02A51-FF0E-64C9-EA3A-9A87308151E1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -21,6 +21,14 @@
 				<File Id="210569290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_003.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_003_F9BE5579.wem</CachePath>
+				</File>
+				<File Id="224145728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>light_waves4.wav</ShortName>
+					<CachePath>SFX/light_waves4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="252133875" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>light_waves3.wav</ShortName>
+					<CachePath>SFX/light_waves3_818F3B66.wem</CachePath>
 				</File>
 				<File Id="355874403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Market_Music_Loopable.wav</ShortName>
@@ -74,6 +82,10 @@
 					<ShortName>Jump_Up.wav</ShortName>
 					<CachePath>SFX/Jump_Up_B178F9A7.wem</CachePath>
 				</File>
+				<File Id="740776521" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>light_waves2.wav</ShortName>
+					<CachePath>SFX/light_waves2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="763336300" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dogbark3.wav</ShortName>
 					<CachePath>SFX/dogbark3_818F3B66.wem</CachePath>
@@ -105,6 +117,10 @@
 				<File Id="978367020" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_004.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_004_B7BEDAFD.wem</CachePath>
+				</File>
+				<File Id="991281598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>light_waves1.wav</ShortName>
+					<CachePath>SFX/light_waves1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="997424618" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood5.wav</ShortName>
@@ -185,6 +201,17 @@
 						<MediaRef Id="1007515859"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1935373838" Name="Play_Gentle_Waves" ObjectPath="\Events\Default Work Unit\Play_Gentle_Waves" GUID="{B6307F36-E69A-4CBB-92A9-E29560F364D0}" MaxAttenuation="500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="224145728"/>
+						<MediaRef Id="252133875"/>
+						<MediaRef Id="740776521"/>
+						<MediaRef Id="991281598"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3297008698" Name="Play_Jump_Land" ObjectPath="\Events\Default Work Unit\Play_Jump_Land" GUID="{8C48E25D-CAA6-49A5-B934-28F045F27FF1}" DurationType="OneShot" DurationMin="0.21979392" DurationMax="0.21979392">
 					<MediaRefs>
 						<MediaRef Id="557128696"/>
@@ -238,5 +265,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{455A2509-38EF-F906-7710-03CC6B467647}</FileHash>
+	<FileHash>{01FFC50F-9F5D-D68F-01F8-09426382006C}</FileHash>
 </SoundBanksInfo>

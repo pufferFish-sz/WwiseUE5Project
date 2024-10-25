@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{B4317651-D7A7-3305-9FA8-660D9E2D2FB9}",
+    "Hash": "{73F02A51-FF0E-64C9-EA3A-9A87308151E1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -46,6 +46,22 @@
       "Location": "Memory",
       "ShortName": "Footstep_Water_003.wav",
       "CachePath": "SFX/Footstep_Water_003_F9BE5579.wem"
+     },
+     {
+      "Id": "224145728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "light_waves4.wav",
+      "CachePath": "SFX/light_waves4_818F3B66.wem"
+     },
+     {
+      "Id": "252133875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "light_waves3.wav",
+      "CachePath": "SFX/light_waves3_818F3B66.wem"
      },
      {
       "Id": "355874403",
@@ -152,6 +168,14 @@
       "CachePath": "SFX/Jump_Up_B178F9A7.wem"
      },
      {
+      "Id": "740776521",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "light_waves2.wav",
+      "CachePath": "SFX/light_waves2_818F3B66.wem"
+     },
+     {
       "Id": "763336300",
       "Language": "SFX",
       "Streaming": "false",
@@ -214,6 +238,14 @@
       "Location": "Memory",
       "ShortName": "Footstep_Water_004.wav",
       "CachePath": "SFX/Footstep_Water_004_B7BEDAFD.wem"
+     },
+     {
+      "Id": "991281598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "light_waves1.wav",
+      "CachePath": "SFX/light_waves1_818F3B66.wem"
      },
      {
       "Id": "997424618",
@@ -415,6 +447,36 @@
       ]
      },
      {
+      "Id": "1935373838",
+      "Name": "Play_Gentle_Waves",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Gentle_Waves",
+      "GUID": "{B6307F36-E69A-4CBB-92A9-E29560F364D0}",
+      "MaxAttenuation": "500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "224145728"
+       },
+       {
+        "Id": "252133875"
+       },
+       {
+        "Id": "740776521"
+       },
+       {
+        "Id": "991281598"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2190861365",
+        "Name": "LakeSide",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\LakeSide",
+        "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
+       }
+      ]
+     },
+     {
       "Id": "3297008698",
       "Name": "Play_Jump_Land",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump_Land",
@@ -556,6 +618,6 @@
     ]
    }
   ],
-  "FileHash": "{7E78D504-DF68-345B-9B7A-E3636A0B82BF}"
+  "FileHash": "{91539BB5-8AB5-42EF-E486-93DC206DA30C}"
  }
 }

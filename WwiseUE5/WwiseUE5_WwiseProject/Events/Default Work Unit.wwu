@@ -138,6 +138,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gentle_Waves" ID="{B6307F36-E69A-4CBB-92A9-E29560F364D0}">
+					<ChildrenList>
+						<Action Name="" ID="{9EF5C8AE-DF1D-4389-9689-AFAD10F6D3C9}" ShortID="605654025">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gentle_Waves" ID="{60944868-983B-4EDA-BBCE-681C4718969D}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
