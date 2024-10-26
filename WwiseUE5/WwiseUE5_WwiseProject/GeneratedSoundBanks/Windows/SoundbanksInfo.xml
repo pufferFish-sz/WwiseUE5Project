@@ -54,7 +54,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{73F02A51-FF0E-64C9-EA3A-9A87308151E1}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{EA9EC19C-2D22-DF3D-49FB-67BD1493F77E}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -189,7 +189,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="4210292500" Name="Play_Birdcall_Loop" ObjectPath="\Events\Default Work Unit\Play_Birdcall_Loop" GUID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" DurationType="Infinite">
+				<Event Id="4210292500" Name="Play_Birdcall_Loop" ObjectPath="\Events\Default Work Unit\Play_Birdcall_Loop" GUID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" MaxAttenuation="500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="6115457"/>
 					</MediaRefs>
@@ -254,7 +254,7 @@
 						<MediaRef Id="1007515859"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1935373838" Name="Play_Gentle_Waves" ObjectPath="\Events\Default Work Unit\Play_Gentle_Waves" GUID="{B6307F36-E69A-4CBB-92A9-E29560F364D0}" MaxAttenuation="500" DurationType="Infinite">
+				<Event Id="1935373838" Name="Play_Gentle_Waves" ObjectPath="\Events\Default Work Unit\Play_Gentle_Waves" GUID="{B6307F36-E69A-4CBB-92A9-E29560F364D0}" MaxAttenuation="500" DurationType="OneShot" DurationMin="1.1152166" DurationMax="2.5421355">
 					<MediaRefs>
 						<MediaRef Id="224145728"/>
 						<MediaRef Id="252133875"/>
@@ -280,7 +280,7 @@
 						<MediaRef Id="955207780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" DurationType="Infinite">
+				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="355874403"/>
 					</MediaRefs>
@@ -318,5 +318,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{70BB9831-A01A-8353-2C6D-49A6932425C2}</FileHash>
+	<FileHash>{DB668ECA-C873-0BFF-0CAB-3EEC87ED7394}</FileHash>
 </SoundBanksInfo>

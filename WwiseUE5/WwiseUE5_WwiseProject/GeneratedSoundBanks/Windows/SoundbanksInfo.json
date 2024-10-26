@@ -142,7 +142,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{73F02A51-FF0E-64C9-EA3A-9A87308151E1}",
+    "Hash": "{EA9EC19C-2D22-DF3D-49FB-67BD1493F77E}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -410,6 +410,7 @@
       "Name": "Play_Birdcall_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Birdcall_Loop",
       "GUID": "{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}",
+      "MaxAttenuation": "500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -584,7 +585,9 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Gentle_Waves",
       "GUID": "{B6307F36-E69A-4CBB-92A9-E29560F364D0}",
       "MaxAttenuation": "500",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1152166",
+      "DurationMax": "2.5421355",
       "MediaRefs": [
        {
         "Id": "224145728"
@@ -654,6 +657,7 @@
       "Name": "Play_Market_Music_Loopable",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Market_Music_Loopable",
       "GUID": "{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}",
+      "MaxAttenuation": "1000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -750,6 +754,6 @@
     ]
    }
   ],
-  "FileHash": "{08D85EF4-623F-6921-1287-03DC7176419D}"
+  "FileHash": "{C453391A-8DE6-E47E-6918-58D10710A595}"
  }
 }
