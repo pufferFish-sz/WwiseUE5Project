@@ -142,7 +142,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{EA9EC19C-2D22-DF3D-49FB-67BD1493F77E}",
+    "Hash": "{B34973D2-5791-D555-1631-EC5378C9A19F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -657,7 +657,7 @@
       "Name": "Play_Market_Music_Loopable",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Market_Music_Loopable",
       "GUID": "{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -754,6 +754,6 @@
     ]
    }
   ],
-  "FileHash": "{C453391A-8DE6-E47E-6918-58D10710A595}"
+  "FileHash": "{B2216E44-996A-7428-E441-AC3B91368141}"
  }
 }

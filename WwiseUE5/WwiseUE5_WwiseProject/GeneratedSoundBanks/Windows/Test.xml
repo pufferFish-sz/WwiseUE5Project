@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{EA9EC19C-2D22-DF3D-49FB-67BD1493F77E}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{B34973D2-5791-D555-1631-EC5378C9A19F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -227,7 +227,7 @@
 						<MediaRef Id="955207780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="355874403"/>
 					</MediaRefs>
@@ -265,5 +265,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{042198B1-1964-73F3-5E3C-D033C701ECD8}</FileHash>
+	<FileHash>{13FE54A4-BF7C-F6C6-0F5B-E2120E88389E}</FileHash>
 </SoundBanksInfo>

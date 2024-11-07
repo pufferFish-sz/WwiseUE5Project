@@ -1781,8 +1781,8 @@
 				</Sound>
 				<Sound Name="Market_Music_Loopable" ID="{E7488576-7F95-4608-BCE7-FBD99EB49D8D}" ShortID="87900144">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="2"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1795,7 +1795,7 @@
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{243A7B83-73C5-4BC0-8DA6-12D197073174}" ShortID="371493199">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+										<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -1812,7 +1812,7 @@
 															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1000</XPos>
+															<XPos>2000</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -1894,6 +1894,9 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{11483DF1-8C79-4B25-9E25-ABC3DF99EA48}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="Market_Music_Loopable" ID="{D3FAC25F-8B54-4A19-973C-C4579ABB728E}" Platform="Linked"/>
 					</ActiveSourceList>
