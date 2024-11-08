@@ -78,6 +78,23 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
+						<AuxBus Name="Church" ID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{3ED53ED3-7C9D-4A8C-9C72-6A6C7D9D7D95}" ShortID="143730067">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Plate_Medium" ID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

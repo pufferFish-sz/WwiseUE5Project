@@ -5,9 +5,11 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	491961918	Forest			\Default Work Unit\Master Audio Bus\Forest	
 	1245295233	MediumRoom			\Default Work Unit\Master Audio Bus\MediumRoom	
 	2190861365	LakeSide			\Default Work Unit\Master Audio Bus\LakeSide	
+	2568407992	Church			\Default Work Unit\Master Audio Bus\Church	
 	2933838247	SmallRoom			\Default Work Unit\Master Audio Bus\SmallRoom	
 
 Effect plug-ins	ID	Name	Type				Notes
+	1706684651	Plate_Medium	Wwise RoomVerb			
 	1990128658	Room_Medium	Wwise RoomVerb			
 	2995775460	Room_Small	Wwise RoomVerb			
 

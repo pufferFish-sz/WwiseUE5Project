@@ -149,6 +149,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Bach_Organ" ID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}">
+					<ChildrenList>
+						<Action Name="" ID="{B00E0F0B-610A-4A39-827B-42FA9DEDD0BC}" ShortID="475439316">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bach_Organ" ID="{17937384-E054-441F-AC82-274AC3F2B9EC}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Engine_Fan_Loop" ID="{22957B75-DB73-42DF-BB5C-8F198BAD98FD}">
+					<ChildrenList>
+						<Action Name="" ID="{3D74D7FB-E75B-4AE5-86F2-2DD7D55C74A4}" ShortID="159055731">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine_Fan_Loop" ID="{93B3151D-49FA-4BF9-B8DB-34189D6FD515}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crow" ID="{DF700BB3-43E4-403C-A03E-DD61C2F83757}">
+					<ChildrenList>
+						<Action Name="" ID="{16182F7C-1879-4CD9-9C9C-779F073377D4}" ShortID="795061375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crow" ID="{04A27961-4C76-43ED-848A-45B018787913}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Wood_Chop" ID="{E344CD5D-A6BF-4132-92E4-A239D947D0FA}">
+					<ChildrenList>
+						<Action Name="" ID="{41226A80-B2BC-412A-9663-357D0D4A8AFA}" ShortID="367830355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood_Chop" ID="{5097FF9F-9AA0-4CE8-9FDF-73FCC9869482}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

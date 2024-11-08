@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{6BD50F2E-3DBB-5620-1488-B18997788253}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{207B5E64-DBE1-14C9-C67C-AA48C49E0028}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<ShareSets>
+					<Plugin Id="1706684651" Name="Plate_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Plates\Plate_Medium" GUID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
 				</ShareSets>
@@ -28,6 +29,13 @@
 					</PluginRefs>
 				</AuxBus>
 				<AuxBus Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+				<AuxBus Id="2568407992" Name="Church" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Church" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1706684651"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
 				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallRoom" GUID="{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}">
 					<PluginRefs>
 						<ShareSets>
@@ -39,6 +47,7 @@
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{4BE7164B-3838-470D-9B69-1A561DD7C48B}">
 					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Materials\Concrete" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Materials\Wood" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Materials\Water" GUID="{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Materials\Grass" GUID="{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"/>
@@ -47,5 +56,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D4C3A829-AA14-09D5-81E2-7282AC3112CD}</FileHash>
+	<FileHash>{62309D7C-0CE3-BEEC-084E-0E7D7C030028}</FileHash>
 </SoundBanksInfo>

@@ -10,12 +10,20 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{6BD50F2E-3DBB-5620-1488-B18997788253}",
+    "Hash": "{207B5E64-DBE1-14C9-C67C-AA48C49E0028}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
      "ShareSets": [
+      {
+       "Id": "1706684651",
+       "Name": "Plate_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
+       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
       {
        "Id": "1990128658",
        "Name": "Room_Medium",
@@ -87,6 +95,19 @@
       "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
      },
      {
+      "Id": "2568407992",
+      "Name": "Church",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+      "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1706684651"
+        }
+       ]
+      }
+     },
+     {
       "Id": "2933838247",
       "Name": "SmallRoom",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallRoom",
@@ -107,6 +128,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\Materials",
       "GUID": "{4BE7164B-3838-470D-9B69-1A561DD7C48B}",
       "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Concrete",
+        "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"
+       },
        {
         "Id": "2058049674",
         "Name": "Wood",
@@ -130,6 +157,6 @@
     ]
    }
   ],
-  "FileHash": "{BA9A9B46-20FD-BC66-2588-9ECD2180668C}"
+  "FileHash": "{B6E9B6E5-31BE-8A07-8119-EE2C1C4C5599}"
  }
 }

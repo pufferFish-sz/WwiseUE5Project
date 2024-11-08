@@ -5,13 +5,17 @@
 			<ChildrenList>
 				<SoundBank Name="Test" ID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Crow" ID="{DF700BB3-43E4-403C-A03E-DD61C2F83757}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Campfire_Loop" ID="{7C4A81A7-756D-4084-8156-B0F37C84EC40}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wood_Chop" ID="{E344CD5D-A6BF-4132-92E4-A239D947D0FA}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Lake_Shore_Abmiance" ID="{7B3CBD3A-29DB-42C1-9483-F6CC600D7CE7}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Engine_Fan_Loop" ID="{22957B75-DB73-42DF-BB5C-8F198BAD98FD}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Small_Church_Bell" ID="{299310E2-16E3-471F-8783-C9586B599792}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Birdcall_Loop" ID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wind_Turbine_Swoosh" ID="{20465C01-CE63-485E-AC12-521E730C8983}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jump_Land" ID="{8C48E25D-CAA6-49A5-B934-28F045F27FF1}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bach_Organ" ID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Gentle_Waves" ID="{B6307F36-E69A-4CBB-92A9-E29560F364D0}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Market_Music_Loopable" ID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jump_Up" ID="{4448A1AC-EE1D-4D76-BDE1-37CE61C7F97A}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>

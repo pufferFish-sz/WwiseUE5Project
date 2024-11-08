@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{B34973D2-5791-D555-1631-EC5378C9A19F}",
+    "Hash": "{CB90BFEE-3901-E645-BBB4-D8CE340D9278}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -40,6 +40,14 @@
       "CachePath": "SFX/footstep_grass6_3140B353.wem"
      },
      {
+      "Id": "130593789",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "chop_wood (2).wav",
+      "CachePath": "SFX/chop_wood (2)_818F3B66.wem"
+     },
+     {
       "Id": "210569290",
       "Language": "SFX",
       "Streaming": "false",
@@ -64,12 +72,36 @@
       "CachePath": "SFX/light_waves3_818F3B66.wem"
      },
      {
+      "Id": "271203852",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crow_Squawk1.wav",
+      "CachePath": "SFX/Crow_Squawk1_818F3B66.wem"
+     },
+     {
+      "Id": "320154724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Engine_Fan.wav",
+      "CachePath": "SFX/Engine_Fan_FBC78EF0.wem"
+     },
+     {
       "Id": "355874403",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Market_Music_Loopable.wav",
       "CachePath": "SFX/Market_Music_Loopable_FBC78EF0.wem"
+     },
+     {
+      "Id": "364710208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Concrete2.wav",
+      "CachePath": "SFX/Footstep_Concrete2_818F3B66.wem"
      },
      {
       "Id": "425759577",
@@ -94,6 +126,22 @@
       "Location": "Memory",
       "ShortName": "footstep_grass4.wav",
       "CachePath": "SFX/footstep_grass4_1F9EDD67.wem"
+     },
+     {
+      "Id": "470214964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Concrete3.wav",
+      "CachePath": "SFX/Footstep_Concrete3_818F3B66.wem"
+     },
+     {
+      "Id": "499180960",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "chop_wood (6).wav",
+      "CachePath": "SFX/chop_wood (6)_818F3B66.wem"
      },
      {
       "Id": "501708608",
@@ -126,6 +174,14 @@
       "Location": "Memory",
       "ShortName": "Jump_Land.wav",
       "CachePath": "SFX/Jump_Land_7F0FAFF8.wem"
+     },
+     {
+      "Id": "624824353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footstep_Concrete1.wav",
+      "CachePath": "SFX/Footstep_Concrete1_818F3B66.wem"
      },
      {
       "Id": "637852463",
@@ -192,12 +248,28 @@
       "CachePath": "SFX/Footstep_Water_005_A029C02D.wem"
      },
      {
+      "Id": "793398008",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crow_Squawk2.wav",
+      "CachePath": "SFX/Crow_Squawk2_818F3B66.wem"
+     },
+     {
       "Id": "794782841",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Campfire_Loop.wav",
       "CachePath": "SFX/Campfire_Loop_FBC78EF0.wem"
+     },
+     {
+      "Id": "857287192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "chop_wood (4).wav",
+      "CachePath": "SFX/chop_wood (4)_818F3B66.wem"
      },
      {
       "Id": "871402874",
@@ -224,6 +296,14 @@
       "CachePath": "SFX/Small_Church_Bell_FBC78EF0.wem"
      },
      {
+      "Id": "953920978",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bach_Organ.wav",
+      "CachePath": "SFX/Bach_Organ_818F3B66.wem"
+     },
+     {
       "Id": "955207780",
       "Language": "SFX",
       "Streaming": "false",
@@ -248,6 +328,14 @@
       "CachePath": "SFX/light_waves1_818F3B66.wem"
      },
      {
+      "Id": "992197302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "chop_wood (5).wav",
+      "CachePath": "SFX/chop_wood (5)_818F3B66.wem"
+     },
+     {
       "Id": "997424618",
       "Language": "SFX",
       "Streaming": "false",
@@ -270,9 +358,32 @@
       "Location": "Memory",
       "ShortName": "Small Hit 2.wav",
       "CachePath": "SFX/Small Hit 2_818F3B66.wem"
+     },
+     {
+      "Id": "1071425818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "chop_wood (3).wav",
+      "CachePath": "SFX/chop_wood (3)_818F3B66.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "2044759554",
+      "Name": "Play_Bach_Organ",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bach_Organ",
+      "GUID": "{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}",
+      "MaxAttenuation": "1000",
+      "DurationType": "OneShot",
+      "DurationMin": "156.31755",
+      "DurationMax": "156.31755",
+      "MediaRefs": [
+       {
+        "Id": "953920978"
+       }
+      ]
+     },
      {
       "Id": "4210292500",
       "Name": "Play_Birdcall_Loop",
@@ -296,6 +407,24 @@
       "MediaRefs": [
        {
         "Id": "794782841"
+       }
+      ]
+     },
+     {
+      "Id": "3219523343",
+      "Name": "Play_Crow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crow",
+      "GUID": "{DF700BB3-43E4-403C-A03E-DD61C2F83757}",
+      "MaxAttenuation": "500",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6725183",
+      "DurationMax": "2.7035716",
+      "MediaRefs": [
+       {
+        "Id": "271203852"
+       },
+       {
+        "Id": "793398008"
        }
       ]
      },
@@ -329,6 +458,19 @@
       ]
      },
      {
+      "Id": "1084541731",
+      "Name": "Play_Engine_Fan_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Engine_Fan_Loop",
+      "GUID": "{22957B75-DB73-42DF-BB5C-8F198BAD98FD}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "320154724"
+       }
+      ]
+     },
+     {
       "Id": "1602358412",
       "Name": "Play_Footstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
@@ -337,6 +479,25 @@
       "DurationMin": "0.13394888",
       "DurationMax": "0.63941246",
       "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "841620460",
+         "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "364710208"
+         },
+         {
+          "Id": "470214964"
+         },
+         {
+          "Id": "624824353"
+         }
+        ]
+       },
        {
         "SwitchValue": {
          "GroupType": "Switch",
@@ -590,6 +751,33 @@
         "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
        }
       ]
+     },
+     {
+      "Id": "46035764",
+      "Name": "Play_Wood_Chop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wood_Chop",
+      "GUID": "{E344CD5D-A6BF-4132-92E4-A239D947D0FA}",
+      "MaxAttenuation": "3000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4291876",
+      "DurationMax": "1.5582762",
+      "MediaRefs": [
+       {
+        "Id": "130593789"
+       },
+       {
+        "Id": "499180960"
+       },
+       {
+        "Id": "857287192"
+       },
+       {
+        "Id": "992197302"
+       },
+       {
+        "Id": "1071425818"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -599,6 +787,12 @@
       "ObjectPath": "\\Switches\\Default Work Unit\\Materials",
       "GUID": "{4BE7164B-3838-470D-9B69-1A561DD7C48B}",
       "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Materials\\Concrete",
+        "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"
+       },
        {
         "Id": "2058049674",
         "Name": "Wood",
@@ -622,6 +816,6 @@
     ]
    }
   ],
-  "FileHash": "{0D88B046-3270-6956-DA86-2F888A88223E}"
+  "FileHash": "{0509F7C8-C6FE-3C15-9522-D018CE335623}"
  }
 }

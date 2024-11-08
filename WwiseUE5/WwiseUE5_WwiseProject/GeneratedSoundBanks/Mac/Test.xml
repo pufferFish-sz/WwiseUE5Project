@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{B34973D2-5791-D555-1631-EC5378C9A19F}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{CB90BFEE-3901-E645-BBB4-D8CE340D9278}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -18,6 +18,10 @@
 					<ShortName>footstep_grass6.wav</ShortName>
 					<CachePath>SFX/footstep_grass6_3140B353.wem</CachePath>
 				</File>
+				<File Id="130593789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chop_wood (2).wav</ShortName>
+					<CachePath>SFX/chop_wood (2)_818F3B66.wem</CachePath>
+				</File>
 				<File Id="210569290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_003.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_003_F9BE5579.wem</CachePath>
@@ -30,9 +34,21 @@
 					<ShortName>light_waves3.wav</ShortName>
 					<CachePath>SFX/light_waves3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="271203852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crow_Squawk1.wav</ShortName>
+					<CachePath>SFX/Crow_Squawk1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="320154724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Engine_Fan.wav</ShortName>
+					<CachePath>SFX/Engine_Fan_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="355874403" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Market_Music_Loopable.wav</ShortName>
 					<CachePath>SFX/Market_Music_Loopable_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="364710208" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_Concrete2.wav</ShortName>
+					<CachePath>SFX/Footstep_Concrete2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="425759577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind_Turbine_Swoosh.wav</ShortName>
@@ -45,6 +61,14 @@
 				<File Id="468964522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass4.wav</ShortName>
 					<CachePath>SFX/footstep_grass4_1F9EDD67.wem</CachePath>
+				</File>
+				<File Id="470214964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_Concrete3.wav</ShortName>
+					<CachePath>SFX/Footstep_Concrete3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="499180960" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chop_wood (6).wav</ShortName>
+					<CachePath>SFX/chop_wood (6)_818F3B66.wem</CachePath>
 				</File>
 				<File Id="501708608" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass1.wav</ShortName>
@@ -61,6 +85,10 @@
 				<File Id="557128696" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Jump_Land.wav</ShortName>
 					<CachePath>SFX/Jump_Land_7F0FAFF8.wem</CachePath>
+				</File>
+				<File Id="624824353" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_Concrete1.wav</ShortName>
+					<CachePath>SFX/Footstep_Concrete1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="637852463" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_006.wav</ShortName>
@@ -94,9 +122,17 @@
 					<ShortName>Footstep_Water_005.wav</ShortName>
 					<CachePath>SFX/Footstep_Water_005_A029C02D.wem</CachePath>
 				</File>
+				<File Id="793398008" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crow_Squawk2.wav</ShortName>
+					<CachePath>SFX/Crow_Squawk2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="794782841" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Campfire_Loop.wav</ShortName>
 					<CachePath>SFX/Campfire_Loop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="857287192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chop_wood (4).wav</ShortName>
+					<CachePath>SFX/chop_wood (4)_818F3B66.wem</CachePath>
 				</File>
 				<File Id="871402874" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood1.wav</ShortName>
@@ -110,6 +146,10 @@
 					<ShortName>Small_Church_Bell.wav</ShortName>
 					<CachePath>SFX/Small_Church_Bell_FBC78EF0.wem</CachePath>
 				</File>
+				<File Id="953920978" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bach_Organ.wav</ShortName>
+					<CachePath>SFX/Bach_Organ_818F3B66.wem</CachePath>
+				</File>
 				<File Id="955207780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lake_Shore_Abmiance.wav</ShortName>
 					<CachePath>SFX/Lake_Shore_Abmiance_897DC6BA.wem</CachePath>
@@ -121,6 +161,10 @@
 				<File Id="991281598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>light_waves1.wav</ShortName>
 					<CachePath>SFX/light_waves1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="992197302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chop_wood (5).wav</ShortName>
+					<CachePath>SFX/chop_wood (5)_818F3B66.wem</CachePath>
 				</File>
 				<File Id="997424618" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Wood5.wav</ShortName>
@@ -134,8 +178,17 @@
 					<ShortName>Small Hit 2.wav</ShortName>
 					<CachePath>SFX/Small Hit 2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1071425818" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chop_wood (3).wav</ShortName>
+					<CachePath>SFX/chop_wood (3)_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="156.31755" DurationMax="156.31755">
+					<MediaRefs>
+						<MediaRef Id="953920978"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4210292500" Name="Play_Birdcall_Loop" ObjectPath="\Events\Default Work Unit\Play_Birdcall_Loop" GUID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" MaxAttenuation="500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="6115457"/>
@@ -144,6 +197,12 @@
 				<Event Id="4257633926" Name="Play_Campfire_Loop" ObjectPath="\Events\Default Work Unit\Play_Campfire_Loop" GUID="{7C4A81A7-756D-4084-8156-B0F37C84EC40}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="794782841"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3219523343" Name="Play_Crow" ObjectPath="\Events\Default Work Unit\Play_Crow" GUID="{DF700BB3-43E4-403C-A03E-DD61C2F83757}" MaxAttenuation="500" DurationType="OneShot" DurationMin="2.6725183" DurationMax="2.7035716">
+					<MediaRefs>
+						<MediaRef Id="271203852"/>
+						<MediaRef Id="793398008"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2632436053" Name="Play_Dog_Bark" ObjectPath="\Events\Default Work Unit\Play_Dog_Bark" GUID="{13B82B7B-A735-4FC6-8019-B3B98D3785CE}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.5291874" DurationMax="5.4394794">
@@ -156,8 +215,21 @@
 						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="1084541731" Name="Play_Engine_Fan_Loop" ObjectPath="\Events\Default Work Unit\Play_Engine_Fan_Loop" GUID="{22957B75-DB73-42DF-BB5C-8F198BAD98FD}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="320154724"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.13394888" DurationMax="0.63941246">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="841620460" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
+							<MediaRefs>
+								<MediaRef Id="364710208"/>
+								<MediaRef Id="470214964"/>
+								<MediaRef Id="624824353"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2654748154" GUID="{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"/>
 							<MediaRefs>
@@ -253,10 +325,20 @@
 						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="46035764" Name="Play_Wood_Chop" ObjectPath="\Events\Default Work Unit\Play_Wood_Chop" GUID="{E344CD5D-A6BF-4132-92E4-A239D947D0FA}" MaxAttenuation="3000" DurationType="OneShot" DurationMin="0.4291876" DurationMax="1.5582762">
+					<MediaRefs>
+						<MediaRef Id="130593789"/>
+						<MediaRef Id="499180960"/>
+						<MediaRef Id="857287192"/>
+						<MediaRef Id="992197302"/>
+						<MediaRef Id="1071425818"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{4BE7164B-3838-470D-9B69-1A561DD7C48B}">
 					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Materials\Concrete" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Materials\Wood" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Materials\Water" GUID="{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Materials\Grass" GUID="{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"/>
@@ -265,5 +347,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2D6E673A-156B-254D-2C72-AEA0134293B1}</FileHash>
+	<FileHash>{EE236DA0-5E48-D2FC-E614-CC48849588C2}</FileHash>
 </SoundBanksInfo>
