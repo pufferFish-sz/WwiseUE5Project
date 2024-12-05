@@ -193,6 +193,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_light_wind_loop" ID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}">
+					<ChildrenList>
+						<Action Name="" ID="{2BEB506A-4981-4D06-838F-E1F9EB8EA977}" ShortID="477457830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="light_wind_loop" ID="{C60C7162-7AFD-4D88-A6B7-4A33BBB7DC19}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

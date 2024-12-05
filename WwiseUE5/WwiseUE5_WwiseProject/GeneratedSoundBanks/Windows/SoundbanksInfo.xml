@@ -9,6 +9,33 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="491961918" Type="Bus" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}" Language="SFX" Hash="{DC8AD995-2231-8028-C1D1-39F712BE2F8E}">
+			<ObjectPath>Forest</ObjectPath>
+			<ShortName>Forest</ShortName>
+			<Path>Bus/Forest.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1245295233" Type="Bus" GUID="{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}" Language="SFX" Hash="{1D5B681B-CC81-CEAB-1509-ECFB01C1FF1A}">
+			<ObjectPath>MediumRoom</ObjectPath>
+			<ShortName>MediumRoom</ShortName>
+			<Path>Bus/MediumRoom.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1245295233" Name="MediumRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MediumRoom" GUID="{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{207B5E64-DBE1-14C9-C67C-AA48C49E0028}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -63,7 +90,72 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{CB90BFEE-3901-E645-BBB4-D8CE340D9278}">
+		<SoundBank Id="2190861365" Type="Bus" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}" Language="SFX" Hash="{10BCAFF4-50E7-8E7E-8F39-BAA24C1D91CE}">
+			<ObjectPath>LakeSide</ObjectPath>
+			<ShortName>LakeSide</ShortName>
+			<Path>Bus/LakeSide.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{AABA507B-A7EE-5EDE-80B3-9FBC7BD39F92}">
+			<ObjectPath>Play_light_wind_loop</ObjectPath>
+			<ShortName>Play_light_wind_loop</ShortName>
+			<Path>Event/Play_light_wind_loop.bnk</Path>
+			<Media>
+				<File Id="380410873" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>light_wind_loop.wav</ShortName>
+					<Path>Media/380410873.wem</Path>
+					<CachePath>SFX/light_wind_loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2308691488" Name="Play_light_wind_loop" ObjectPath="\Events\Default Work Unit\Play_light_wind_loop" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="380410873"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2568407992" Type="Bus" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}" Language="SFX" Hash="{2CA8ADB7-9C20-7DBD-3175-9BFA1317877E}">
+			<ObjectPath>Church</ObjectPath>
+			<ShortName>Church</ShortName>
+			<Path>Bus/Church.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1706684651" Name="Plate_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Plates\Plate_Medium" GUID="{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2568407992" Name="Church" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Church" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1706684651"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="2933838247" Type="Bus" GUID="{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}" Language="SFX" Hash="{D2D11670-4B0B-F0FD-F8D2-DB65706105A3}">
+			<ObjectPath>SmallRoom</ObjectPath>
+			<ShortName>SmallRoom</ShortName>
+			<Path>Bus/SmallRoom.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2933838247" Name="SmallRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SmallRoom" GUID="{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{7BB29B33-37CF-6A63-A8F4-719E490F9E5F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -246,7 +338,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="156.31755" DurationMax="156.31755">
+				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="156.31755" DurationMax="156.31755">
 					<MediaRefs>
 						<MediaRef Id="953920978"/>
 					</MediaRefs>
@@ -409,5 +501,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{25182A7D-C813-A491-6CF6-A168A7C47F72}</FileHash>
+	<FileHash>{9D4BECBA-DBB3-0B52-2406-968841F42968}</FileHash>
 </SoundBanksInfo>

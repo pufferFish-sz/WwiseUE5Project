@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{CB90BFEE-3901-E645-BBB4-D8CE340D9278}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{7BB29B33-37CF-6A63-A8F4-719E490F9E5F}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -184,7 +184,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="156.31755" DurationMax="156.31755">
+				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="156.31755" DurationMax="156.31755">
 					<MediaRefs>
 						<MediaRef Id="953920978"/>
 					</MediaRefs>
@@ -347,5 +347,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE236DA0-5E48-D2FC-E614-CC48849588C2}</FileHash>
+	<FileHash>{3B523C16-4032-BDAC-88B7-7EA19BFEE7BB}</FileHash>
 </SoundBanksInfo>

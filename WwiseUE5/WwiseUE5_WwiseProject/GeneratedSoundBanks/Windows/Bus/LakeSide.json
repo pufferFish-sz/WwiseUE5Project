@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2190861365",
+    "Type": "Bus",
+    "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}",
+    "Language": "SFX",
+    "Hash": "{10BCAFF4-50E7-8E7E-8F39-BAA24C1D91CE}",
+    "ObjectPath": "LakeSide",
+    "ShortName": "LakeSide",
+    "Path": "Bus/LakeSide.bnk",
+    "AuxBusses": [
+     {
+      "Id": "2190861365",
+      "Name": "LakeSide",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\LakeSide",
+      "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A16209CD-A7EB-F418-E948-03EDF960CD70}"
+ }
+}

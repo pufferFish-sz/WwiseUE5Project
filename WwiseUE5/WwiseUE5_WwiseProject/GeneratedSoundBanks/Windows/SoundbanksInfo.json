@@ -14,6 +14,61 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "491961918",
+    "Type": "Bus",
+    "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}",
+    "Language": "SFX",
+    "Hash": "{DC8AD995-2231-8028-C1D1-39F712BE2F8E}",
+    "ObjectPath": "Forest",
+    "ShortName": "Forest",
+    "Path": "Bus/Forest.bnk",
+    "AuxBusses": [
+     {
+      "Id": "491961918",
+      "Name": "Forest",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+      "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+     }
+    ]
+   },
+   {
+    "Id": "1245295233",
+    "Type": "Bus",
+    "GUID": "{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}",
+    "Language": "SFX",
+    "Hash": "{1D5B681B-CC81-CEAB-1509-ECFB01C1FF1A}",
+    "ObjectPath": "MediumRoom",
+    "ShortName": "MediumRoom",
+    "Path": "Bus/MediumRoom.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1245295233",
+      "Name": "MediumRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MediumRoom",
+      "GUID": "{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
@@ -165,11 +220,138 @@
     ]
    },
    {
+    "Id": "2190861365",
+    "Type": "Bus",
+    "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}",
+    "Language": "SFX",
+    "Hash": "{10BCAFF4-50E7-8E7E-8F39-BAA24C1D91CE}",
+    "ObjectPath": "LakeSide",
+    "ShortName": "LakeSide",
+    "Path": "Bus/LakeSide.bnk",
+    "AuxBusses": [
+     {
+      "Id": "2190861365",
+      "Name": "LakeSide",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\LakeSide",
+      "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"
+     }
+    ]
+   },
+   {
+    "Id": "2308691488",
+    "Type": "Event",
+    "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
+    "Language": "SFX",
+    "Hash": "{AABA507B-A7EE-5EDE-80B3-9FBC7BD39F92}",
+    "ObjectPath": "Play_light_wind_loop",
+    "ShortName": "Play_light_wind_loop",
+    "Path": "Event/Play_light_wind_loop.bnk",
+    "Media": [
+     {
+      "Id": "380410873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "light_wind_loop.wav",
+      "Path": "Media/380410873.wem",
+      "CachePath": "SFX/light_wind_loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2308691488",
+      "Name": "Play_light_wind_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_light_wind_loop",
+      "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "380410873"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2568407992",
+    "Type": "Bus",
+    "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}",
+    "Language": "SFX",
+    "Hash": "{2CA8ADB7-9C20-7DBD-3175-9BFA1317877E}",
+    "ObjectPath": "Church",
+    "ShortName": "Church",
+    "Path": "Bus/Church.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1706684651",
+       "Name": "Plate_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
+       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2568407992",
+      "Name": "Church",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+      "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1706684651"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "Id": "2933838247",
+    "Type": "Bus",
+    "GUID": "{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}",
+    "Language": "SFX",
+    "Hash": "{D2D11670-4B0B-F0FD-F8D2-DB65706105A3}",
+    "ObjectPath": "SmallRoom",
+    "ShortName": "SmallRoom",
+    "Path": "Bus/SmallRoom.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallRoom",
+      "GUID": "{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
     "Id": "3157003241",
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{CB90BFEE-3901-E645-BBB4-D8CE340D9278}",
+    "Hash": "{7BB29B33-37CF-6A63-A8F4-719E490F9E5F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -533,7 +715,7 @@
       "Name": "Play_Bach_Organ",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Bach_Organ",
       "GUID": "{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "156.31755",
       "DurationMax": "156.31755",
@@ -975,6 +1157,6 @@
     ]
    }
   ],
-  "FileHash": "{44A22A0D-7520-DACF-DA47-226B6C90DF55}"
+  "FileHash": "{0BC3A871-DA5E-E9FE-1A62-CD076B26D7DE}"
  }
 }

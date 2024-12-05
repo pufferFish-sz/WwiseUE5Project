@@ -2279,15 +2279,18 @@
 				</RandomSequenceContainer>
 				<Sound Name="Bach_Organ" ID="{17937384-E054-441F-AC82-274AC3F2B9EC}" ShortID="791058503">
 					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<Custom>
 								<Attenuation Name="Attenuation (Custom)" ID="{1CF67CD1-3575-4997-99AB-3C3553896413}" ShortID="553855221">
 									<PropertyList>
-										<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+										<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 									</PropertyList>
 									<CurveUsageInfoList>
 										<VolumeDryUsage>
@@ -2301,10 +2304,10 @@
 															<XPos>0</XPos>
 															<YPos>0</YPos>
 															<Flags>5</Flags>
-															<SegmentShape>Log1</SegmentShape>
+															<SegmentShape>Log3</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1000</XPos>
+															<XPos>2000</XPos>
 															<YPos>-200</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -2332,7 +2335,7 @@
 															<SegmentShape>Log1</SegmentShape>
 														</Point>
 														<Point>
-															<XPos>1000</XPos>
+															<XPos>2000</XPos>
 															<YPos>65</YPos>
 															<Flags>37</Flags>
 														</Point>
@@ -2599,7 +2602,7 @@
 														</Point>
 														<Point>
 															<XPos>113.43161</XPos>
-															<YPos>-0</YPos>
+															<YPos>0</YPos>
 															<Flags>0</Flags>
 															<SegmentShape>Exp1</SegmentShape>
 														</Point>
@@ -2649,7 +2652,7 @@
 														</Point>
 														<Point>
 															<XPos>173.17073</XPos>
-															<YPos>-0</YPos>
+															<YPos>0</YPos>
 															<Flags>0</Flags>
 														</Point>
 														<Point>
@@ -2749,7 +2752,7 @@
 																		</Point>
 																		<Point>
 																			<XPos>113.43161</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
@@ -2799,7 +2802,7 @@
 																		</Point>
 																		<Point>
 																			<XPos>173.17073</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
@@ -2959,7 +2962,7 @@
 																		</Point>
 																		<Point>
 																			<XPos>113.43161</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>0</Flags>
 																			<SegmentShape>Exp1</SegmentShape>
 																		</Point>
@@ -3009,7 +3012,7 @@
 																		</Point>
 																		<Point>
 																			<XPos>173.17073</XPos>
-																			<YPos>-0</YPos>
+																			<YPos>0</YPos>
 																			<Flags>0</Flags>
 																		</Point>
 																		<Point>
@@ -3472,6 +3475,37 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="light_wind_loop" ID="{C60C7162-7AFD-4D88-A6B7-4A33BBB7DC19}" ShortID="661271242">
+					<PropertyList>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="light_wind_loop" ID="{DB95B5CF-B6BA-424F-96D2-866FE2BEB430}">
+							<Language>SFX</Language>
+							<AudioFile>light_wind_loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="380410873"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="light_wind_loop" ID="{DB95B5CF-B6BA-424F-96D2-866FE2BEB430}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

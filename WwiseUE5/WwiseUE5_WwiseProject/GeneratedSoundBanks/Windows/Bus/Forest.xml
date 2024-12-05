@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="491961918" Type="Bus" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}" Language="SFX" Hash="{DC8AD995-2231-8028-C1D1-39F712BE2F8E}">
+			<ObjectPath>Forest</ObjectPath>
+			<ShortName>Forest</ShortName>
+			<Path>Bus/Forest.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{17A0C472-B6DE-B770-EDBB-5E76CA142657}</FileHash>
+</SoundBanksInfo>

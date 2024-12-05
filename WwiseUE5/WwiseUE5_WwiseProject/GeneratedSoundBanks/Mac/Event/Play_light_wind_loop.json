@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2308691488",
+    "Type": "Event",
+    "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
+    "Language": "SFX",
+    "Hash": "{AABA507B-A7EE-5EDE-80B3-9FBC7BD39F92}",
+    "ObjectPath": "Play_light_wind_loop",
+    "ShortName": "Play_light_wind_loop",
+    "Path": "Event/Play_light_wind_loop.bnk",
+    "Media": [
+     {
+      "Id": "380410873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "light_wind_loop.wav",
+      "Path": "Media/380410873.wem",
+      "CachePath": "SFX/light_wind_loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2308691488",
+      "Name": "Play_light_wind_loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_light_wind_loop",
+      "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "380410873"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C8C047E4-03AC-42BE-3D2F-9AAB62CC0C20}"
+ }
+}

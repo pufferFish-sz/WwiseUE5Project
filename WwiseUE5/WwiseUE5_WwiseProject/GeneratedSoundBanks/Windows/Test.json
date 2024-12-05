@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{CB90BFEE-3901-E645-BBB4-D8CE340D9278}",
+    "Hash": "{7BB29B33-37CF-6A63-A8F4-719E490F9E5F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -374,7 +374,7 @@
       "Name": "Play_Bach_Organ",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Bach_Organ",
       "GUID": "{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "2000",
       "DurationType": "OneShot",
       "DurationMin": "156.31755",
       "DurationMax": "156.31755",
@@ -816,6 +816,6 @@
     ]
    }
   ],
-  "FileHash": "{4C34F8E0-385C-3B33-62B9-F142E90B6661}"
+  "FileHash": "{5614609C-722F-3620-D64F-2140C902A7A8}"
  }
 }

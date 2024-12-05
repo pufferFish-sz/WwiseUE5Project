@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{AABA507B-A7EE-5EDE-80B3-9FBC7BD39F92}">
+			<ObjectPath>Play_light_wind_loop</ObjectPath>
+			<ShortName>Play_light_wind_loop</ShortName>
+			<Path>Event/Play_light_wind_loop.bnk</Path>
+			<Media>
+				<File Id="380410873" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>light_wind_loop.wav</ShortName>
+					<Path>Media/380410873.wem</Path>
+					<CachePath>SFX/light_wind_loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2308691488" Name="Play_light_wind_loop" ObjectPath="\Events\Default Work Unit\Play_light_wind_loop" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="380410873"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{84210B4F-913E-1D67-A20F-27A6C81AC59E}</FileHash>
+</SoundBanksInfo>

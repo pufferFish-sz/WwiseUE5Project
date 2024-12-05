@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2933838247",
+    "Type": "Bus",
+    "GUID": "{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}",
+    "Language": "SFX",
+    "Hash": "{D2D11670-4B0B-F0FD-F8D2-DB65706105A3}",
+    "ObjectPath": "SmallRoom",
+    "ShortName": "SmallRoom",
+    "Path": "Bus/SmallRoom.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2933838247",
+      "Name": "SmallRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SmallRoom",
+      "GUID": "{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E7836874-7D24-C19F-A8C7-5E391AAD2014}"
+ }
+}

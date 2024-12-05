@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "491961918",
+    "Type": "Bus",
+    "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}",
+    "Language": "SFX",
+    "Hash": "{DC8AD995-2231-8028-C1D1-39F712BE2F8E}",
+    "ObjectPath": "Forest",
+    "ShortName": "Forest",
+    "Path": "Bus/Forest.bnk",
+    "AuxBusses": [
+     {
+      "Id": "491961918",
+      "Name": "Forest",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+      "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FFE69107-407B-5FB7-943D-AAC0D7452A84}"
+ }
+}

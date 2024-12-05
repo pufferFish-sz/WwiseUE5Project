@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2190861365" Type="Bus" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}" Language="SFX" Hash="{10BCAFF4-50E7-8E7E-8F39-BAA24C1D91CE}">
+			<ObjectPath>LakeSide</ObjectPath>
+			<ShortName>LakeSide</ShortName>
+			<Path>Bus/LakeSide.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{678E3520-2F68-58BF-C96B-EC0B57F72549}</FileHash>
+</SoundBanksInfo>

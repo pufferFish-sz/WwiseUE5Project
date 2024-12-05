@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1245295233",
+    "Type": "Bus",
+    "GUID": "{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}",
+    "Language": "SFX",
+    "Hash": "{1D5B681B-CC81-CEAB-1509-ECFB01C1FF1A}",
+    "ObjectPath": "MediumRoom",
+    "ShortName": "MediumRoom",
+    "Path": "Bus/MediumRoom.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1245295233",
+      "Name": "MediumRoom",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\MediumRoom",
+      "GUID": "{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1990128658"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B5975CFA-6ABA-3360-CB97-4874F3D1CC53}"
+ }
+}
