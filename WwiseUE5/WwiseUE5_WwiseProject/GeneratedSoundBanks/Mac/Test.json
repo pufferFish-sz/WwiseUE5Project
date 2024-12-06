@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{7BB29B33-37CF-6A63-A8F4-719E490F9E5F}",
+    "Hash": "{65C1D409-9A9F-DA58-D7A3-BF5DE05F04E0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -484,7 +484,8 @@
          "GroupType": "Switch",
          "GroupId": "4050929301",
          "Id": "841620460",
-         "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"
+         "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -559,8 +560,7 @@
          "GroupType": "Switch",
          "GroupId": "4050929301",
          "Id": "2058049674",
-         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}",
-         "Default": "true"
+         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
         },
         "MediaRefs": [
          {
@@ -816,6 +816,6 @@
     ]
    }
   ],
-  "FileHash": "{6AEC2F25-398D-0E10-DEB7-F8C832D82E32}"
+  "FileHash": "{14CAE099-1A8E-6760-BBA8-4E8694EE74CC}"
  }
 }
