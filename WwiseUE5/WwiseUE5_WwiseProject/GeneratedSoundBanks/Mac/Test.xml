@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{65C1D409-9A9F-DA58-D7A3-BF5DE05F04E0}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{DF923151-4BC7-8E58-7312-7CE5D0500D63}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -148,7 +148,7 @@
 				</File>
 				<File Id="953920978" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bach_Organ.wav</ShortName>
-					<CachePath>SFX/Bach_Organ_818F3B66.wem</CachePath>
+					<CachePath>SFX/Bach_Organ_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="955207780" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lake_Shore_Abmiance.wav</ShortName>
@@ -184,7 +184,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="2000" DurationType="OneShot" DurationMin="156.31755" DurationMax="156.31755">
+				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="953920978"/>
 					</MediaRefs>
@@ -194,7 +194,7 @@
 						<MediaRef Id="6115457"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4257633926" Name="Play_Campfire_Loop" ObjectPath="\Events\Default Work Unit\Play_Campfire_Loop" GUID="{7C4A81A7-756D-4084-8156-B0F37C84EC40}" MaxAttenuation="1500" DurationType="Infinite">
+				<Event Id="4257633926" Name="Play_Campfire_Loop" ObjectPath="\Events\Default Work Unit\Play_Campfire_Loop" GUID="{7C4A81A7-756D-4084-8156-B0F37C84EC40}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="794782841"/>
 					</MediaRefs>
@@ -215,7 +215,7 @@
 						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1084541731" Name="Play_Engine_Fan_Loop" ObjectPath="\Events\Default Work Unit\Play_Engine_Fan_Loop" GUID="{22957B75-DB73-42DF-BB5C-8F198BAD98FD}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="1084541731" Name="Play_Engine_Fan_Loop" ObjectPath="\Events\Default Work Unit\Play_Engine_Fan_Loop" GUID="{22957B75-DB73-42DF-BB5C-8F198BAD98FD}" MaxAttenuation="500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="320154724"/>
 					</MediaRefs>
@@ -223,7 +223,7 @@
 				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.13394888" DurationMax="0.63941246">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="841620460" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="841620460" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
 							<MediaRefs>
 								<MediaRef Id="364710208"/>
 								<MediaRef Id="470214964"/>
@@ -253,7 +253,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2058049674" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"/>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2058049674" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="113599525"/>
 								<MediaRef Id="449919700"/>
@@ -299,12 +299,12 @@
 						<MediaRef Id="955207780"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" MaxAttenuation="2000" DurationType="Infinite">
+				<Event Id="3402561667" Name="Play_Market_Music_Loopable" ObjectPath="\Events\Default Work Unit\Play_Market_Music_Loopable" GUID="{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="355874403"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2426179657" Name="Play_Small_Church_Bell" ObjectPath="\Events\Default Work Unit\Play_Small_Church_Bell" GUID="{299310E2-16E3-471F-8783-C9586B599792}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="12.594656" DurationMax="12.594656">
+				<Event Id="2426179657" Name="Play_Small_Church_Bell" ObjectPath="\Events\Default Work Unit\Play_Small_Church_Bell" GUID="{299310E2-16E3-471F-8783-C9586B599792}" MaxAttenuation="4000" DurationType="OneShot" DurationMin="12.594656" DurationMax="12.594656">
 					<MediaRefs>
 						<MediaRef Id="938415071"/>
 					</MediaRefs>
@@ -317,7 +317,7 @@
 						<MediaRef Id="1061081258"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="772514170" Name="Play_Wind_Turbine_Swoosh" ObjectPath="\Events\Default Work Unit\Play_Wind_Turbine_Swoosh" GUID="{20465C01-CE63-485E-AC12-521E730C8983}" MaxAttenuation="3000" DurationType="Infinite">
+				<Event Id="772514170" Name="Play_Wind_Turbine_Swoosh" ObjectPath="\Events\Default Work Unit\Play_Wind_Turbine_Swoosh" GUID="{20465C01-CE63-485E-AC12-521E730C8983}" MaxAttenuation="1100" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="425759577"/>
 					</MediaRefs>
@@ -347,5 +347,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E2A0DDED-92DA-73B8-88E6-C89E82F84317}</FileHash>
+	<FileHash>{096AF85F-7ED0-3BAA-2D16-86E7A60BC43B}</FileHash>
 </SoundBanksInfo>

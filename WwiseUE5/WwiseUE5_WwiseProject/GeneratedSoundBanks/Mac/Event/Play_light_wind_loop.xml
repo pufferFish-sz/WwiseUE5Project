@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{AABA507B-A7EE-5EDE-80B3-9FBC7BD39F92}">
+		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{42EFC5D1-DA92-1920-45BD-0185EE89C004}">
 			<ObjectPath>Play_light_wind_loop</ObjectPath>
 			<ShortName>Play_light_wind_loop</ShortName>
 			<Path>Event/Play_light_wind_loop.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2308691488" Name="Play_light_wind_loop" ObjectPath="\Events\Default Work Unit\Play_light_wind_loop" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" DurationType="Infinite">
+				<Event Id="2308691488" Name="Play_light_wind_loop" ObjectPath="\Events\Default Work Unit\Play_light_wind_loop" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" MaxAttenuation="1000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="380410873"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{69F546F5-2C36-3562-49D1-DC1F347DF053}</FileHash>
+	<FileHash>{C86AF38E-4621-FCC7-05DA-CAEC30930E3E}</FileHash>
 </SoundBanksInfo>

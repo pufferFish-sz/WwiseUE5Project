@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{65C1D409-9A9F-DA58-D7A3-BF5DE05F04E0}",
+    "Hash": "{DF923151-4BC7-8E58-7312-7CE5D0500D63}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -301,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bach_Organ.wav",
-      "CachePath": "SFX/Bach_Organ_818F3B66.wem"
+      "CachePath": "SFX/Bach_Organ_FBC78EF0.wem"
      },
      {
       "Id": "955207780",
@@ -374,10 +374,8 @@
       "Name": "Play_Bach_Organ",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Bach_Organ",
       "GUID": "{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}",
-      "MaxAttenuation": "2000",
-      "DurationType": "OneShot",
-      "DurationMin": "156.31755",
-      "DurationMax": "156.31755",
+      "MaxAttenuation": "1100",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "953920978"
@@ -402,7 +400,7 @@
       "Name": "Play_Campfire_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Campfire_Loop",
       "GUID": "{7C4A81A7-756D-4084-8156-B0F37C84EC40}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "1000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -462,7 +460,7 @@
       "Name": "Play_Engine_Fan_Loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Engine_Fan_Loop",
       "GUID": "{22957B75-DB73-42DF-BB5C-8F198BAD98FD}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -484,8 +482,7 @@
          "GroupType": "Switch",
          "GroupId": "4050929301",
          "Id": "841620460",
-         "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}",
-         "Default": "true"
+         "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"
         },
         "MediaRefs": [
          {
@@ -560,7 +557,8 @@
          "GroupType": "Switch",
          "GroupId": "4050929301",
          "Id": "2058049674",
-         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
+         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -686,7 +684,7 @@
       "Name": "Play_Market_Music_Loopable",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Market_Music_Loopable",
       "GUID": "{FDAAA944-9031-4D61-BF23-BEA0EEF299B1}",
-      "MaxAttenuation": "2000",
+      "MaxAttenuation": "1500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -699,7 +697,7 @@
       "Name": "Play_Small_Church_Bell",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Small_Church_Bell",
       "GUID": "{299310E2-16E3-471F-8783-C9586B599792}",
-      "MaxAttenuation": "5000",
+      "MaxAttenuation": "4000",
       "DurationType": "OneShot",
       "DurationMin": "12.594656",
       "DurationMax": "12.594656",
@@ -736,7 +734,7 @@
       "Name": "Play_Wind_Turbine_Swoosh",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Wind_Turbine_Swoosh",
       "GUID": "{20465C01-CE63-485E-AC12-521E730C8983}",
-      "MaxAttenuation": "3000",
+      "MaxAttenuation": "1100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -816,6 +814,6 @@
     ]
    }
   ],
-  "FileHash": "{14CAE099-1A8E-6760-BBA8-4E8694EE74CC}"
+  "FileHash": "{04A21A0B-9B4E-B846-187D-A3D938A962FD}"
  }
 }

@@ -62,6 +62,9 @@
 							</ObjectLists>
 						</AuxBus>
 						<AuxBus Name="SmallRoom" ID="{5539E681-AA1A-4AA7-BCC8-0C3BBB967016}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
