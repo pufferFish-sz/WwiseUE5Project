@@ -82,3 +82,4 @@ Wwise/*.akpk
 Wwise/*.prof
 Wwise/*.validationcache
 Wwise/*.wsettings
+WwiseUE5/Binaries/Win64/WwiseUE5.pdb
