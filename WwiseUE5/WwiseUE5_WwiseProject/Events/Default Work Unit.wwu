@@ -204,6 +204,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Chickens_Loop" ID="{B0CD66D6-90EA-4B38-AD8B-42D2C06A2114}">
+					<ChildrenList>
+						<Action Name="" ID="{DB1F9FDD-B097-41EC-8101-123996D92759}" ShortID="858051413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chickens_Loop" ID="{D4486E9E-751C-4331-A300-1E67AA2697B5}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_people_talking" ID="{807C0F8B-75F2-4C25-A2C4-A8AC02B054EE}">
+					<ChildrenList>
+						<Action Name="" ID="{99405C56-2874-4227-AFF5-3F6C7FEA4655}" ShortID="920408158">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="people_talking" ID="{F32ED1AE-2EA5-4A4B-B67C-00AFA1EE8AB3}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

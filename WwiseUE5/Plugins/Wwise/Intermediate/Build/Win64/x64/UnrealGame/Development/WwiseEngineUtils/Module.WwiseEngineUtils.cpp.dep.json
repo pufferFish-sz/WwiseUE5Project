@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\shang\\onedrive\\documents\\unreal projects\\wwiseue5project\\wwiseue5\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealgame\\development\\wwiseengineutils\\module.wwiseengineutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\shang\\onedrive\\documents\\unreal projects\\wwiseue5project\\wwiseue5\\intermediate\\build\\win64\\x64\\wwiseue5\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\shang\\onedrive\\documents\\unreal projects\\wwiseue5project\\wwiseue5\\plugins\\wwise\\intermediate\\build\\win64\\x64\\unrealgame\\development\\wwiseengineutils\\definitions.wwiseengineutils.h",
+            "c:\\users\\shang\\onedrive\\documents\\unreal projects\\wwiseue5project\\wwiseue5\\plugins\\wwise\\source\\wwiseengineutils\\private\\wwiseunrealenginehelper.cpp",
+            "c:\\users\\shang\\onedrive\\documents\\unreal projects\\wwiseue5project\\wwiseue5\\plugins\\wwise\\source\\wwiseengineutils\\public\\wwiseunrealenginehelper.h",
+            "c:\\users\\shang\\onedrive\\documents\\unreal projects\\wwiseue5project\\wwiseue5\\plugins\\wwise\\source\\wwiseutils\\public\\wwiseunrealdefines.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

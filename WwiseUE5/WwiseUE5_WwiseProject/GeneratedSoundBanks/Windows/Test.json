@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{DF923151-4BC7-8E58-7312-7CE5D0500D63}",
+    "Hash": "{10501CFE-94D8-6E41-45B1-D1371D591A2F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -192,6 +192,14 @@
       "CachePath": "SFX/Footstep_Water_006_89AB63C9.wem"
      },
      {
+      "Id": "683855667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "people_talking.wav",
+      "CachePath": "SFX/people_talking_FBC78EF0.wem"
+     },
+     {
       "Id": "684262849",
       "Language": "SFX",
       "Streaming": "false",
@@ -352,6 +360,14 @@
       "CachePath": "SFX/footstep_grass5_27DC55D5.wem"
      },
      {
+      "Id": "1038202785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chickens_Loop.wav",
+      "CachePath": "SFX/Chickens_Loop_FBC78EF0.wem"
+     },
+     {
       "Id": "1061081258",
       "Language": "SFX",
       "Streaming": "false",
@@ -405,6 +421,19 @@
       "MediaRefs": [
        {
         "Id": "794782841"
+       }
+      ]
+     },
+     {
+      "Id": "709622155",
+      "Name": "Play_Chickens_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chickens_Loop",
+      "GUID": "{B0CD66D6-90EA-4B38-AD8B-42D2C06A2114}",
+      "MaxAttenuation": "300",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1038202785"
        }
       ]
      },
@@ -693,6 +722,19 @@
       ]
      },
      {
+      "Id": "2890821392",
+      "Name": "Play_people_talking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_people_talking",
+      "GUID": "{807C0F8B-75F2-4C25-A2C4-A8AC02B054EE}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "683855667"
+       }
+      ]
+     },
+     {
       "Id": "2426179657",
       "Name": "Play_Small_Church_Bell",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Small_Church_Bell",
@@ -814,6 +856,6 @@
     ]
    }
   ],
-  "FileHash": "{22288459-966A-BB62-7D4A-C12E76FF1AFC}"
+  "FileHash": "{A39AB363-C8D1-8233-00F4-1BB792CE40C4}"
  }
 }
