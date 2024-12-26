@@ -98,7 +98,7 @@
 				<AuxBus Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{1F2D937D-ED66-7DD6-D4E9-58FBCB711FFF}">
+		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{4E726724-8BD5-CC4B-C2C9-F5132EB88E8B}">
 			<ObjectPath>Play_light_wind_loop</ObjectPath>
 			<ShortName>Play_light_wind_loop</ShortName>
 			<Path>Event/Play_light_wind_loop.bnk</Path>
@@ -155,7 +155,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{10501CFE-94D8-6E41-45B1-D1371D591A2F}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{ADC29E56-43BF-91AB-D499-A9FAB8EB5EAE}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -202,7 +202,7 @@
 				</File>
 				<File Id="364710208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Concrete2.wav</ShortName>
-					<CachePath>SFX/Footstep_Concrete2_818F3B66.wem</CachePath>
+					<CachePath>SFX/Footstep_Concrete2_E3EBC022.wem</CachePath>
 				</File>
 				<File Id="425759577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind_Turbine_Swoosh.wav</ShortName>
@@ -218,7 +218,7 @@
 				</File>
 				<File Id="470214964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Concrete3.wav</ShortName>
-					<CachePath>SFX/Footstep_Concrete3_818F3B66.wem</CachePath>
+					<CachePath>SFX/Footstep_Concrete3_DFE7B155.wem</CachePath>
 				</File>
 				<File Id="499180960" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>chop_wood (6).wav</ShortName>
@@ -242,7 +242,7 @@
 				</File>
 				<File Id="624824353" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Concrete1.wav</ShortName>
-					<CachePath>SFX/Footstep_Concrete1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Footstep_Concrete1_DD63D4CB.wem</CachePath>
 				</File>
 				<File Id="637852463" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_006.wav</ShortName>
@@ -346,7 +346,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1100" DurationType="Infinite">
+				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1600" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="953920978"/>
 					</MediaRefs>
@@ -387,10 +387,10 @@
 						<MediaRef Id="320154724"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.13394888" DurationMax="0.63941246">
+				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Play_Footstep" GUID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" DurationType="OneShot" DurationMin="0.09519111" DurationMax="0.63941246">
 					<SwitchContainers>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="841620460" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="841620460" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="364710208"/>
 								<MediaRef Id="470214964"/>
@@ -420,7 +420,7 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
-							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2058049674" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}" Default="true"/>
+							<SwitchValue GroupType="Switch" GroupId="4050929301" Id="2058049674" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"/>
 							<MediaRefs>
 								<MediaRef Id="113599525"/>
 								<MediaRef Id="449919700"/>
@@ -519,5 +519,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87936EE9-5314-4A17-0ABE-58D0D6F2B3FE}</FileHash>
+	<FileHash>{A4BBD4EE-64CB-B17D-56C6-6C36B9FF8534}</FileHash>
 </SoundBanksInfo>
