@@ -203,7 +203,7 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.027323160046729"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0157633615654206"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.242230322721962"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.226204862508185"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>footstep_grass1.wav</AudioFile>
@@ -232,7 +232,7 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0287383177570094"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0217289719626168"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.304906542056075"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.292792527804294"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>footstep_grass2.wav</AudioFile>
@@ -270,7 +270,7 @@
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0255543589369159"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0229333990459502"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.326309506425234"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.304993196053104"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>footstep_grass3.wav</AudioFile>
@@ -296,10 +296,10 @@
 										<AudioFileSource Name="footstep_grass4" ID="{8E37C39E-3CC8-4BC8-8EAD-573F1CF38FDB}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.00964914330218069"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0295505013629284"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0522351559551691"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0199013580607477"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.292489656347352"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.219530902388524"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>footstep_grass4.wav</AudioFile>
@@ -325,10 +325,10 @@
 										<AudioFileSource Name="footstep_grass5" ID="{1F9C7293-470E-47A9-8159-6A0A01F52773}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.0150029205607477"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0368253504672897"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0777294478544631"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.027959988317757"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.372345210280374"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.348080067762559"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>footstep_grass5.wav</AudioFile>
@@ -354,10 +354,10 @@
 										<AudioFileSource Name="footstep_grass6" ID="{6D79BDC7-C64E-4EA7-A966-88B3EAF66820}">
 											<PropertyList>
 												<Property Name="FadeInDuration" Type="Real64" Value="0.00733031542056075"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0268778232087228"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0573076282364346"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.0103846135124611"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.249841583917445"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.202644335303035"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>footstep_grass6.wav</AudioFile>

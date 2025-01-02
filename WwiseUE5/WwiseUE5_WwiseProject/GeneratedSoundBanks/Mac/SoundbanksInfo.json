@@ -352,7 +352,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{ADC29E56-43BF-91AB-D499-A9FAB8EB5EAE}",
+    "Hash": "{3244A4C3-0030-F748-39FB-C8F0604F6EF1}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -379,7 +379,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass6.wav",
-      "CachePath": "SFX/footstep_grass6_3140B353.wem"
+      "CachePath": "SFX/footstep_grass6_1375F45F.wem"
      },
      {
       "Id": "130593789",
@@ -443,7 +443,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Concrete2.wav",
-      "CachePath": "SFX/Footstep_Concrete2_E3EBC022.wem"
+      "CachePath": "SFX/Footstep_Concrete2_186B7216.wem"
      },
      {
       "Id": "425759577",
@@ -467,7 +467,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass4.wav",
-      "CachePath": "SFX/footstep_grass4_1F9EDD67.wem"
+      "CachePath": "SFX/footstep_grass4_2A929E31.wem"
      },
      {
       "Id": "470214964",
@@ -475,7 +475,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Concrete3.wav",
-      "CachePath": "SFX/Footstep_Concrete3_DFE7B155.wem"
+      "CachePath": "SFX/Footstep_Concrete3_DE7BE75C.wem"
      },
      {
       "Id": "499180960",
@@ -491,7 +491,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass1.wav",
-      "CachePath": "SFX/footstep_grass1_209E4C5D.wem"
+      "CachePath": "SFX/footstep_grass1_66577550.wem"
      },
      {
       "Id": "531932346",
@@ -499,7 +499,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass3.wav",
-      "CachePath": "SFX/footstep_grass3_B58CF285.wem"
+      "CachePath": "SFX/footstep_grass3_BABAF0F6.wem"
      },
      {
       "Id": "546444098",
@@ -523,7 +523,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footstep_Concrete1.wav",
-      "CachePath": "SFX/Footstep_Concrete1_DD63D4CB.wem"
+      "CachePath": "SFX/Footstep_Concrete1_F6320005.wem"
      },
      {
       "Id": "637852463",
@@ -563,7 +563,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass2.wav",
-      "CachePath": "SFX/footstep_grass2_86219B88.wem"
+      "CachePath": "SFX/footstep_grass2_66BE1D17.wem"
      },
      {
       "Id": "712577792",
@@ -699,7 +699,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep_grass5.wav",
-      "CachePath": "SFX/footstep_grass5_27DC55D5.wem"
+      "CachePath": "SFX/footstep_grass5_676C8A83.wem"
      },
      {
       "Id": "1038202785",
@@ -954,8 +954,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep_Grass",
       "GUID": "{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}",
       "DurationType": "OneShot",
-      "DurationMin": "0.22620547",
-      "DurationMax": "0.34478334",
+      "DurationMin": "0.19203773",
+      "DurationMax": "0.32049012",
       "MediaRefs": [
        {
         "Id": "116938062"
@@ -1198,6 +1198,6 @@
     ]
    }
   ],
-  "FileHash": "{74734300-AE9B-89A8-E11C-38B2BAF5354A}"
+  "FileHash": "{261F1A63-BCAE-5851-4C56-784E94EE7566}"
  }
 }

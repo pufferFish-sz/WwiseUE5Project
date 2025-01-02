@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{ADC29E56-43BF-91AB-D499-A9FAB8EB5EAE}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{3244A4C3-0030-F748-39FB-C8F0604F6EF1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -16,7 +16,7 @@
 				</File>
 				<File Id="116938062" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass6.wav</ShortName>
-					<CachePath>SFX/footstep_grass6_3140B353.wem</CachePath>
+					<CachePath>SFX/footstep_grass6_1375F45F.wem</CachePath>
 				</File>
 				<File Id="130593789" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>chop_wood (2).wav</ShortName>
@@ -48,7 +48,7 @@
 				</File>
 				<File Id="364710208" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Concrete2.wav</ShortName>
-					<CachePath>SFX/Footstep_Concrete2_E3EBC022.wem</CachePath>
+					<CachePath>SFX/Footstep_Concrete2_186B7216.wem</CachePath>
 				</File>
 				<File Id="425759577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Wind_Turbine_Swoosh.wav</ShortName>
@@ -60,11 +60,11 @@
 				</File>
 				<File Id="468964522" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass4.wav</ShortName>
-					<CachePath>SFX/footstep_grass4_1F9EDD67.wem</CachePath>
+					<CachePath>SFX/footstep_grass4_2A929E31.wem</CachePath>
 				</File>
 				<File Id="470214964" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Concrete3.wav</ShortName>
-					<CachePath>SFX/Footstep_Concrete3_DFE7B155.wem</CachePath>
+					<CachePath>SFX/Footstep_Concrete3_DE7BE75C.wem</CachePath>
 				</File>
 				<File Id="499180960" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>chop_wood (6).wav</ShortName>
@@ -72,11 +72,11 @@
 				</File>
 				<File Id="501708608" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass1.wav</ShortName>
-					<CachePath>SFX/footstep_grass1_209E4C5D.wem</CachePath>
+					<CachePath>SFX/footstep_grass1_66577550.wem</CachePath>
 				</File>
 				<File Id="531932346" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass3.wav</ShortName>
-					<CachePath>SFX/footstep_grass3_B58CF285.wem</CachePath>
+					<CachePath>SFX/footstep_grass3_BABAF0F6.wem</CachePath>
 				</File>
 				<File Id="546444098" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dogbark1.wav</ShortName>
@@ -88,7 +88,7 @@
 				</File>
 				<File Id="624824353" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Concrete1.wav</ShortName>
-					<CachePath>SFX/Footstep_Concrete1_DD63D4CB.wem</CachePath>
+					<CachePath>SFX/Footstep_Concrete1_F6320005.wem</CachePath>
 				</File>
 				<File Id="637852463" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep_Water_006.wav</ShortName>
@@ -108,7 +108,7 @@
 				</File>
 				<File Id="693920030" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass2.wav</ShortName>
-					<CachePath>SFX/footstep_grass2_86219B88.wem</CachePath>
+					<CachePath>SFX/footstep_grass2_66BE1D17.wem</CachePath>
 				</File>
 				<File Id="712577792" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Jump_Up.wav</ShortName>
@@ -176,7 +176,7 @@
 				</File>
 				<File Id="1007515859" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footstep_grass5.wav</ShortName>
-					<CachePath>SFX/footstep_grass5_27DC55D5.wem</CachePath>
+					<CachePath>SFX/footstep_grass5_676C8A83.wem</CachePath>
 				</File>
 				<File Id="1038202785" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Chickens_Loop.wav</ShortName>
@@ -276,7 +276,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="4207214003" Name="Play_Footstep_Grass" ObjectPath="\Events\Default Work Unit\Play_Footstep_Grass" GUID="{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}" DurationType="OneShot" DurationMin="0.22620547" DurationMax="0.34478334">
+				<Event Id="4207214003" Name="Play_Footstep_Grass" ObjectPath="\Events\Default Work Unit\Play_Footstep_Grass" GUID="{EC3013FF-45AE-4E6F-8143-9BCF769E2A04}" DurationType="OneShot" DurationMin="0.19203773" DurationMax="0.32049012">
 					<MediaRefs>
 						<MediaRef Id="116938062"/>
 						<MediaRef Id="468964522"/>
@@ -365,5 +365,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6ED8DD40-2B7B-C851-6CD4-06A87263ED85}</FileHash>
+	<FileHash>{8B316622-2913-1FF1-2812-55A687BCB602}</FileHash>
 </SoundBanksInfo>
