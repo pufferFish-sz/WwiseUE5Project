@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{483797DA-3A82-57B4-209F-47C13E6CDD02}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{22FC7C71-BBED-51AA-FEB0-6CE39B81D3DA}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -44,11 +44,15 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="1537061107" Name="Wind" ObjectPath="\Game Parameters\Default Work Unit\Wind" GUID="{F543E4F2-6491-4AC5-8AAB-1954BDA863B4}"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{4BE7164B-3838-470D-9B69-1A561DD7C48B}">
 					<Switches>
-						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\Materials\Concrete" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Materials\Stone" GUID="{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Materials\Wood" GUID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Materials\Dirt" GUID="{5692AD18-9CD9-4150-8AC8-68AFBA3CA329}"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Materials\Water" GUID="{7B644DD5-CFCD-423B-92D1-1D428F025AE8}"/>
 						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Materials\Grass" GUID="{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"/>
 					</Switches>
@@ -56,5 +60,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A1D4F0E8-7FFA-14E5-51D6-B5D3301DF93D}</FileHash>
+	<FileHash>{4DB43396-4E55-AD78-79F9-6C3B2BFBAC5D}</FileHash>
 </SoundBanksInfo>

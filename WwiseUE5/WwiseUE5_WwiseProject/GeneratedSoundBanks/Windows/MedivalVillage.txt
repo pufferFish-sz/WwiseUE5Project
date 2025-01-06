@@ -1,0 +1,51 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2935559271	Play_Footstep_w_clothes			\Default Work Unit\Play_Footstep_w_clothes	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	4050929301	Materials			\Default Work Unit\Materials	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Materials			
+	2058049674	Wood	Materials			
+	2195636714	Dirt	Materials			
+	2654748154	Water	Materials			
+	4248645337	Grass	Materials			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1537061107	Wind			\Default Work Unit\Wind	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23013236	Dirt_Step_3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_3_C7B1D0AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_3		15016
+	37571399	stone_step_5	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\stone_step_5_EE14B681.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Stone_Step\stone_step_5		26460
+	46871912	clothes_1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\clothes_1_3653C246.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\Clothes\clothes_1		46960
+	51341636	Dirt_Step_8	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_8_ECFAB09C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_8		14340
+	102348364	stone_step_3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\stone_step_3_6CB46CDF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Stone_Step\stone_step_3		40704
+	109937855	Dirt_Step_2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_2_32F32CEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_2		15434
+	139598867	tall_grass_step6	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step6_035588E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step6		73108
+	171754274	stone_step_2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\stone_step_2_9AA37286.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Stone_Step\stone_step_2		40460
+	229708619	tall_grass_step3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step3_18581DF7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step3		90460
+	237159989	Dirt_Step_5	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_5_47E7A1A9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_5		17856
+	257364064	wood_step_3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\wood_step_3_4C50F37E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Wood_Step\wood_step_3		16708
+	264412505	stone_step_6	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\stone_step_6_B4F8CCB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Stone_Step\stone_step_6		37028
+	294136431	clothes_3	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\clothes_3_C1888344.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\Clothes\clothes_3		32548
+	340377922	tall_grass_step1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step1_10E52BA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step1		83824
+	345749936	wood_step_4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\wood_step_4_30E44561.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Wood_Step\wood_step_4		19472
+	350623581	wood_step_5	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\wood_step_5_2D49137C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Wood_Step\wood_step_5		20088
+	436668665	stone_step_1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\stone_step_1_FD646AB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Stone_Step\stone_step_1		44764
+	453608534	tall_grass_step7	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step7_52D39C99.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step7		63576
+	556902033	tall_grass_step8	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step8_1A845209.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step8		64752
+	617212797	wood_step_2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\wood_step_2_1666A53F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Wood_Step\wood_step_2		20740
+	699141461	clothes_5	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\clothes_5_85F7CC45.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\Clothes\clothes_5		34528
+	740308842	stone_step_4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\stone_step_4_C46B5617.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Stone_Step\stone_step_4		32432
+	762775420	Dirt_Step_1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_1_0F874D31.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_1		19174
+	782692396	wood_step_1	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\wood_step_1_F8BFC457.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Wood_Step\wood_step_1		24592
+	797691418	Dirt_Step_4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_4_AB7999BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_4		20244
+	818620955	clothes_7	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\clothes_7_99AA2104.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\Clothes\clothes_7		36120
+	837192448	tall_grass_step5	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step5_48B54258.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step5		66972
+	866307709	tall_grass_step4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step4_63B3B6E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step4		77424
+	930546484	Dirt_Step_7	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_7_305038F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_7		11236
+	956767857	tall_grass_step9	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step9_C7D555B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step9		57676
+	983933082	tall_grass_step2	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\tall_grass_step2_372B6F72.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Tall_Grass_Step\tall_grass_step2		82920
+	1026033209	Dirt_Step_6	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\Dirt_Step_6_1AABFDD1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\New_Footstep\Dirt_Step\Dirt_Step_6		18430
+	1067609629	clothes_4	C:\Users\shang\OneDrive\Documents\Unreal Projects\WwiseUE5Project\WwiseUE5\WwiseUE5_WwiseProject\.cache\Windows\SFX\clothes_4_D0926A08.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footstep_w_clothes\Clothes\clothes_4		35744
+

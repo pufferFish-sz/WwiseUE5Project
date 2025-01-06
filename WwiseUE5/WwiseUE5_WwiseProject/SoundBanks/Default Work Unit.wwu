@@ -28,6 +28,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="MedivalVillage" ID="{E03CDCD9-0F85-4887-AC18-C9AF5AB736F8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Footstep_w_clothes" ID="{DBAD6B26-DFB7-4B7D-9FB1-74115C6A4CFB}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

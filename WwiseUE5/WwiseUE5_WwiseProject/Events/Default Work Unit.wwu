@@ -226,6 +226,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep_w_clothes" ID="{DBAD6B26-DFB7-4B7D-9FB1-74115C6A4CFB}">
+					<ChildrenList>
+						<Action Name="" ID="{C038AB11-0A7A-450B-96C5-EADA542D3F4E}" ShortID="318752037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_w_clothes" ID="{1A60DFB7-BC6C-43EC-87C7-D9CD415AAEE8}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
