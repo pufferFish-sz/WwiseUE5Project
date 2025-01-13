@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="4066255952" Type="Event" GUID="{1BC03C49-2B76-4788-BA5A-052FF19CC969}" Language="SFX" Hash="{68F0ED12-7DB0-F0CD-F5D3-2EAC75179952}">
+			<ObjectPath>Play_Church_Bells</ObjectPath>
+			<ShortName>Play_Church_Bells</ShortName>
+			<Path>Event/Play_Church_Bells.bnk</Path>
+			<Media>
+				<File Id="353996568" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Church_Bells.wav</ShortName>
+					<Path>Media/353996568.wem</Path>
+					<CachePath>SFX/Church_Bells_98FF1693.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4066255952" Name="Play_Church_Bells" ObjectPath="\Events\Default Work Unit\Play_Church_Bells" GUID="{1BC03C49-2B76-4788-BA5A-052FF19CC969}" MaxAttenuation="6000" DurationType="OneShot" DurationMin="7.435514" DurationMax="7.435514">
+					<MediaRefs>
+						<MediaRef Id="353996568"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D59273E6-D670-F33B-7118-3DF62A9C8CB5}</FileHash>
+</SoundBanksInfo>

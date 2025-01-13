@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{03A83376-75EB-B1EA-C174-9A7A050490C6}",
+    "Hash": "{4A879B48-D00D-92EC-C2FC-22A79090E937}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -390,7 +390,7 @@
       "Name": "Play_Bach_Organ",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Bach_Organ",
       "GUID": "{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}",
-      "MaxAttenuation": "1600",
+      "MaxAttenuation": "2500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -460,10 +460,8 @@
       "Name": "Play_Dog_Bark",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Dog_Bark",
       "GUID": "{13B82B7B-A735-4FC6-8019-B3B98D3785CE}",
-      "MaxAttenuation": "5000",
-      "DurationType": "OneShot",
-      "DurationMin": "2.5291874",
-      "DurationMax": "5.4394794",
+      "MaxAttenuation": "2000",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "546444098"
@@ -818,6 +816,16 @@
         "Id": "1071425818"
        }
       ]
+     },
+     {
+      "Id": "1683706515",
+      "Name": "Stop_Dog_Bark",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Dog_Bark",
+      "GUID": "{24D114A9-6DF8-442D-83EC-B765B094D76E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -862,6 +870,6 @@
     ]
    }
   ],
-  "FileHash": "{26B2AE31-156D-73DC-44BC-777FA9E65381}"
+  "FileHash": "{FA49E24E-5612-E3BD-097A-32C6F8FDCAEC}"
  }
 }

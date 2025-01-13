@@ -237,6 +237,88 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Chirp_1" ID="{E8C2463A-E7E3-4F92-9D76-DE03BD300EC1}">
+					<ChildrenList>
+						<Action Name="" ID="{E6161319-318F-4E3E-8FEA-925610B01B4D}" ShortID="101782680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chirp_1" ID="{363ADEA3-A271-4E44-83D6-68910976B02E}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chirp_2" ID="{B84BC734-DA7D-4EE8-8901-A096D6144B50}">
+					<ChildrenList>
+						<Action Name="" ID="{2FE3FE45-87BD-4E8C-9A42-C2399D92A687}" ShortID="387486467">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chirp_2" ID="{2EA17D76-D62F-4B7A-8F1F-A1BCE54F50F2}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Seagull" ID="{43857A77-021C-47B4-9F51-54C043B44E1D}">
+					<ChildrenList>
+						<Action Name="" ID="{E3F3E19B-CD29-4D63-8E03-1ABF4BBBCC56}" ShortID="170883968">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seagull" ID="{6D5892EA-6E44-4588-8D93-5534F6E8FF72}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bell_Strike" ID="{43959BBF-89AA-455F-B60B-B60A538EAB07}">
+					<ChildrenList>
+						<Action Name="" ID="{169191BA-7CE1-479A-974A-16D9B18908FB}" ShortID="1020582369">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bell_Strike" ID="{D354D89A-6AAF-4414-9E22-75D72A1C6187}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Church_Bells" ID="{1BC03C49-2B76-4788-BA5A-052FF19CC969}">
+					<ChildrenList>
+						<Action Name="" ID="{E5F7DF67-B78E-4454-AB7E-1DA0BCAC6FE8}" ShortID="1023517680">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Church_Bells" ID="{553B1538-EA98-4C38-9EA1-862007D41C02}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Dog_Bark" ID="{24D114A9-6DF8-442D-83EC-B765B094D76E}">
+					<ChildrenList>
+						<Action Name="" ID="{1A2E764C-C125-4E78-B58E-342F59545DA2}" ShortID="1035926145">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dog_Bark" ID="{95D7AF87-DD7C-4F06-BD3D-EE17651B1C41}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Jump_Land_New" ID="{20C2DB1D-C616-440C-831B-E8DD3714D91B}">
+					<ChildrenList>
+						<Action Name="" ID="{F154CA28-79FA-455C-8F8A-56CFF2BF0BF4}" ShortID="777364248">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump_Land_New" ID="{3EE1EBDD-3073-4853-ADA6-E4A8ED9A620F}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

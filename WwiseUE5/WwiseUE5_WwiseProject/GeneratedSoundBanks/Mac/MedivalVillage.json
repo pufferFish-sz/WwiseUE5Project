@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{E03CDCD9-0F85-4887-AC18-C9AF5AB736F8}",
     "Language": "SFX",
-    "Hash": "{F99A539E-68B3-6697-9A6D-D248CC1FD905}",
+    "Hash": "{DC50605B-6D3A-2937-305D-F35C682FE50A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MedivalVillage",
     "ShortName": "MedivalVillage",
     "Path": "MedivalVillage.bnk",
     "Media": [
+     {
+      "Id": "14059820",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wood_jump_1.wav",
+      "CachePath": "SFX/wood_jump_1_8F24001B.wem"
+     },
+     {
+      "Id": "16387454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt_jump_3.wav",
+      "CachePath": "SFX/dirt_jump_3_818F3B66.wem"
+     },
      {
       "Id": "23013236",
       "Language": "SFX",
@@ -48,6 +64,14 @@
       "CachePath": "SFX/Dirt_Step_8_ECFAB09C.wem"
      },
      {
+      "Id": "85739089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt_jump_1.wav",
+      "CachePath": "SFX/dirt_jump_1_818F3B66.wem"
+     },
+     {
       "Id": "102348364",
       "Language": "SFX",
       "Streaming": "false",
@@ -62,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "Dirt_Step_2.wav",
       "CachePath": "SFX/Dirt_Step_2_32F32CEB.wem"
+     },
+     {
+      "Id": "124215671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "stone_jump_2.wav",
+      "CachePath": "SFX/stone_jump_2_60F8B40E.wem"
      },
      {
       "Id": "139598867",
@@ -80,12 +112,44 @@
       "CachePath": "SFX/stone_step_2_9AA37286.wem"
      },
      {
+      "Id": "172459977",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "stone_jump_3.wav",
+      "CachePath": "SFX/stone_jump_3_4435E9C0.wem"
+     },
+     {
+      "Id": "198891123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wood_jump_2.wav",
+      "CachePath": "SFX/wood_jump_2_2EC7ED21.wem"
+     },
+     {
+      "Id": "207998397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bell_Strike.wav",
+      "CachePath": "SFX/Bell_Strike_CD5C3467.wem"
+     },
+     {
       "Id": "229708619",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "tall_grass_step3.wav",
       "CachePath": "SFX/tall_grass_step3_18581DF7.wem"
+     },
+     {
+      "Id": "230896951",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "wood_jump_3.wav",
+      "CachePath": "SFX/wood_jump_3_9BC5A510.wem"
      },
      {
       "Id": "237159989",
@@ -101,7 +165,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_step_3.wav",
-      "CachePath": "SFX/wood_step_3_4C50F37E.wem"
+      "CachePath": "SFX/wood_step_3_C6B05042.wem"
      },
      {
       "Id": "264412505",
@@ -120,6 +184,14 @@
       "CachePath": "SFX/clothes_3_C1888344.wem"
      },
      {
+      "Id": "335082767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chirp_2.wav",
+      "CachePath": "SFX/Chirp_2_27D73881.wem"
+     },
+     {
       "Id": "340377922",
       "Language": "SFX",
       "Streaming": "false",
@@ -133,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_step_4.wav",
-      "CachePath": "SFX/wood_step_4_30E44561.wem"
+      "CachePath": "SFX/wood_step_4_D8A11019.wem"
      },
      {
       "Id": "350623581",
@@ -141,7 +213,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_step_5.wav",
-      "CachePath": "SFX/wood_step_5_2D49137C.wem"
+      "CachePath": "SFX/wood_step_5_056C3A73.wem"
+     },
+     {
+      "Id": "412408735",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chirp_1.wav",
+      "CachePath": "SFX/Chirp_1_42AE7CA6.wem"
      },
      {
       "Id": "436668665",
@@ -160,6 +240,14 @@
       "CachePath": "SFX/tall_grass_step7_52D39C99.wem"
      },
      {
+      "Id": "534354904",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "stone_jump_1.wav",
+      "CachePath": "SFX/stone_jump_1_818F3B66.wem"
+     },
+     {
       "Id": "556902033",
       "Language": "SFX",
       "Streaming": "false",
@@ -168,12 +256,20 @@
       "CachePath": "SFX/tall_grass_step8_1A845209.wem"
      },
      {
+      "Id": "606744000",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Seagull.wav",
+      "CachePath": "SFX/Seagull_FBC78EF0.wem"
+     },
+     {
       "Id": "617212797",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_step_2.wav",
-      "CachePath": "SFX/wood_step_2_1666A53F.wem"
+      "CachePath": "SFX/wood_step_2_2CB669EA.wem"
      },
      {
       "Id": "699141461",
@@ -205,7 +301,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_step_1.wav",
-      "CachePath": "SFX/wood_step_1_F8BFC457.wem"
+      "CachePath": "SFX/wood_step_1_51E1C734.wem"
      },
      {
       "Id": "797691418",
@@ -224,12 +320,28 @@
       "CachePath": "SFX/clothes_7_99AA2104.wem"
      },
      {
+      "Id": "830722135",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dirt_jump_2.wav",
+      "CachePath": "SFX/dirt_jump_2_818F3B66.wem"
+     },
+     {
       "Id": "837192448",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "tall_grass_step5.wav",
       "CachePath": "SFX/tall_grass_step5_48B54258.wem"
+     },
+     {
+      "Id": "863215629",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "grass_jump_3.wav",
+      "CachePath": "SFX/grass_jump_3_AC5A0316.wem"
      },
      {
       "Id": "866307709",
@@ -254,6 +366,14 @@
       "Location": "Memory",
       "ShortName": "tall_grass_step9.wav",
       "CachePath": "SFX/tall_grass_step9_C7D555B7.wem"
+     },
+     {
+      "Id": "966876851",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "grass_jump_2.wav",
+      "CachePath": "SFX/grass_jump_2_F580DB23.wem"
      },
      {
       "Id": "983933082",
@@ -281,6 +401,67 @@
      }
     ],
     "Events": [
+     {
+      "Id": "4174897426",
+      "Name": "Play_Bell_Strike",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bell_Strike",
+      "GUID": "{43959BBF-89AA-455F-B60B-B60A538EAB07}",
+      "MaxAttenuation": "6000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4024534",
+      "DurationMax": "2.4024534",
+      "MediaRefs": [
+       {
+        "Id": "207998397"
+       }
+      ]
+     },
+     {
+      "Id": "3396236954",
+      "Name": "Play_Chirp_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chirp_1",
+      "GUID": "{E8C2463A-E7E3-4F92-9D76-DE03BD300EC1}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "13.254053",
+      "DurationMax": "13.408058",
+      "MediaRefs": [
+       {
+        "Id": "412408735"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+       }
+      ]
+     },
+     {
+      "Id": "3396236953",
+      "Name": "Play_Chirp_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chirp_2",
+      "GUID": "{B84BC734-DA7D-4EE8-8901-A096D6144B50}",
+      "MaxAttenuation": "1500",
+      "DurationType": "OneShot",
+      "DurationMin": "68.654",
+      "DurationMax": "69.45173",
+      "MediaRefs": [
+       {
+        "Id": "335082767"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+       }
+      ]
+     },
      {
       "Id": "2935559271",
       "Name": "Play_Footstep_w_clothes",
@@ -340,8 +521,7 @@
          "GroupType": "Switch",
          "GroupId": "4050929301",
          "Id": "2195636714",
-         "GUID": "{5692AD18-9CD9-4150-8AC8-68AFBA3CA329}",
-         "Default": "true"
+         "GUID": "{5692AD18-9CD9-4150-8AC8-68AFBA3CA329}"
         },
         "MediaRefs": [
          {
@@ -412,7 +592,8 @@
          "GroupType": "Switch",
          "GroupId": "4050929301",
          "Id": "2058049674",
-         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
+         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -431,6 +612,104 @@
           "Id": "782692396"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "860155329",
+      "Name": "Play_Jump_Land_New",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump_Land_New",
+      "GUID": "{20C2DB1D-C616-440C-831B-E8DD3714D91B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.19968694",
+      "DurationMax": "0.8355835",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "1216965916",
+         "GUID": "{C8CFC514-67C8-42F3-85C6-CC2526E6B43F}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "124215671"
+         },
+         {
+          "Id": "172459977"
+         },
+         {
+          "Id": "534354904"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "2195636714",
+         "GUID": "{5692AD18-9CD9-4150-8AC8-68AFBA3CA329}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "16387454"
+         },
+         {
+          "Id": "85739089"
+         },
+         {
+          "Id": "830722135"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "4248645337",
+         "GUID": "{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "863215629"
+         },
+         {
+          "Id": "966876851"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "4050929301",
+         "Id": "2058049674",
+         "GUID": "{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "14059820"
+         },
+         {
+          "Id": "198891123"
+         },
+         {
+          "Id": "230896951"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1140525051",
+      "Name": "Play_Seagull",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Seagull",
+      "GUID": "{43857A77-021C-47B4-9F51-54C043B44E1D}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "606744000"
        }
       ]
      }
@@ -485,6 +764,6 @@
     ]
    }
   ],
-  "FileHash": "{4C7BE4AB-5042-1D64-1D2F-829CFBE741A0}"
+  "FileHash": "{C4868C13-E76B-F2AF-A40F-4ADC609AA2D6}"
  }
 }

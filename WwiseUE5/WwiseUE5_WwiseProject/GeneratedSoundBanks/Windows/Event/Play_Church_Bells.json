@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "4066255952",
+    "Type": "Event",
+    "GUID": "{1BC03C49-2B76-4788-BA5A-052FF19CC969}",
+    "Language": "SFX",
+    "Hash": "{68F0ED12-7DB0-F0CD-F5D3-2EAC75179952}",
+    "ObjectPath": "Play_Church_Bells",
+    "ShortName": "Play_Church_Bells",
+    "Path": "Event/Play_Church_Bells.bnk",
+    "Media": [
+     {
+      "Id": "353996568",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Church_Bells.wav",
+      "Path": "Media/353996568.wem",
+      "CachePath": "SFX/Church_Bells_98FF1693.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4066255952",
+      "Name": "Play_Church_Bells",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Church_Bells",
+      "GUID": "{1BC03C49-2B76-4788-BA5A-052FF19CC969}",
+      "MaxAttenuation": "6000",
+      "DurationType": "OneShot",
+      "DurationMin": "7.435514",
+      "DurationMax": "7.435514",
+      "MediaRefs": [
+       {
+        "Id": "353996568"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{728E0EFF-D55D-C19D-3A12-32B4E22ACA56}"
+ }
+}

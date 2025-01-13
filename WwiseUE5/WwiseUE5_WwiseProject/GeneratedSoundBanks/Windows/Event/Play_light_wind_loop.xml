@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{4E726724-8BD5-CC4B-C2C9-F5132EB88E8B}">
+		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{8738F5B5-98B9-7401-E78E-37FE47816398}">
 			<ObjectPath>Play_light_wind_loop</ObjectPath>
 			<ShortName>Play_light_wind_loop</ShortName>
 			<Path>Event/Play_light_wind_loop.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2308691488" Name="Play_light_wind_loop" ObjectPath="\Events\Default Work Unit\Play_light_wind_loop" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" MaxAttenuation="1000" DurationType="Infinite">
+				<Event Id="2308691488" Name="Play_light_wind_loop" ObjectPath="\Events\Default Work Unit\Play_light_wind_loop" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" MaxAttenuation="1500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="380410873"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EC55295E-8DE4-EEFA-4806-1764D83CCFDD}</FileHash>
+	<FileHash>{FFFF424F-6D53-B63E-1854-DD9C26489D1F}</FileHash>
 </SoundBanksInfo>

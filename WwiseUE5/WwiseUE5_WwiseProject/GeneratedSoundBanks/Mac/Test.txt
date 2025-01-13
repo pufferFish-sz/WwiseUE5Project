@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1084541731	Play_Engine_Fan_Loop			\Default Work Unit\Play_Engine_Fan_Loop	
 	1166392914	Play_Small_Hit_2			\Default Work Unit\Play_Small_Hit_2	
 	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
+	1683706515	Stop_Dog_Bark			\Default Work Unit\Stop_Dog_Bark	
 	1935373838	Play_Gentle_Waves			\Default Work Unit\Play_Gentle_Waves	
 	2044759554	Play_Bach_Organ			\Default Work Unit\Play_Bach_Organ	
 	2372486210	Play_Jump_Up			\Default Work Unit\Play_Jump_Up	

@@ -11,6 +11,7 @@
 						<ObjectRef Name="Play_Lake_Shore_Abmiance" ID="{7B3CBD3A-29DB-42C1-9483-F6CC600D7CE7}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Engine_Fan_Loop" ID="{22957B75-DB73-42DF-BB5C-8F198BAD98FD}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep" ID="{B8A8444E-33D2-43EE-B083-671DCE91E9C4}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Dog_Bark" ID="{24D114A9-6DF8-442D-83EC-B765B094D76E}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Small_Church_Bell" ID="{299310E2-16E3-471F-8783-C9586B599792}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Birdcall_Loop" ID="{AD393967-AF5D-47E2-BC5D-B98859BF6A6E}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Wind_Turbine_Swoosh" ID="{20465C01-CE63-485E-AC12-521E730C8983}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
@@ -30,7 +31,12 @@
 				</SoundBank>
 				<SoundBank Name="MedivalVillage" ID="{E03CDCD9-0F85-4887-AC18-C9AF5AB736F8}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Jump_Land_New" ID="{20C2DB1D-C616-440C-831B-E8DD3714D91B}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bell_Strike" ID="{43959BBF-89AA-455F-B60B-B60A538EAB07}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Seagull" ID="{43857A77-021C-47B4-9F51-54C043B44E1D}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footstep_w_clothes" ID="{DBAD6B26-DFB7-4B7D-9FB1-74115C6A4CFB}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chirp_2" ID="{B84BC734-DA7D-4EE8-8901-A096D6144B50}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Chirp_1" ID="{E8C2463A-E7E3-4F92-9D76-DE03BD300EC1}" WorkUnitID="{78420028-D249-4F3E-B791-D0D4B55AC54F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

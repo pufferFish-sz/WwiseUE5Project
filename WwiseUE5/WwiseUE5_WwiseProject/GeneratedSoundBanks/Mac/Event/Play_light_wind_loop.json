@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
     "Language": "SFX",
-    "Hash": "{4E726724-8BD5-CC4B-C2C9-F5132EB88E8B}",
+    "Hash": "{8738F5B5-98B9-7401-E78E-37FE47816398}",
     "ObjectPath": "Play_light_wind_loop",
     "ShortName": "Play_light_wind_loop",
     "Path": "Event/Play_light_wind_loop.bnk",
@@ -31,7 +31,7 @@
       "Name": "Play_light_wind_loop",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_light_wind_loop",
       "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
-      "MaxAttenuation": "1000",
+      "MaxAttenuation": "1500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{CB89EF66-AA4D-F396-96E4-35B8DFBE573E}"
+  "FileHash": "{F004F27E-890A-DD82-944D-D903780CA981}"
  }
 }

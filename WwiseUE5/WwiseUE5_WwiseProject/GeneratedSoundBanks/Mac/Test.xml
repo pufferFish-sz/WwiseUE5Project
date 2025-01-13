@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{03A83376-75EB-B1EA-C174-9A7A050490C6}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{4A879B48-D00D-92EC-C2FC-22A79090E937}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -192,7 +192,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="1600" DurationType="Infinite">
+				<Event Id="2044759554" Name="Play_Bach_Organ" ObjectPath="\Events\Default Work Unit\Play_Bach_Organ" GUID="{2D54CE36-BEB4-4AA4-9763-686B530EDF6F}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="953920978"/>
 					</MediaRefs>
@@ -218,7 +218,7 @@
 						<MediaRef Id="793398008"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2632436053" Name="Play_Dog_Bark" ObjectPath="\Events\Default Work Unit\Play_Dog_Bark" GUID="{13B82B7B-A735-4FC6-8019-B3B98D3785CE}" MaxAttenuation="5000" DurationType="OneShot" DurationMin="2.5291874" DurationMax="5.4394794">
+				<Event Id="2632436053" Name="Play_Dog_Bark" ObjectPath="\Events\Default Work Unit\Play_Dog_Bark" GUID="{13B82B7B-A735-4FC6-8019-B3B98D3785CE}" MaxAttenuation="2000" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="546444098"/>
 						<MediaRef Id="763336300"/>
@@ -352,6 +352,7 @@
 						<MediaRef Id="1071425818"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1683706515" Name="Stop_Dog_Bark" ObjectPath="\Events\Default Work Unit\Stop_Dog_Bark" GUID="{24D114A9-6DF8-442D-83EC-B765B094D76E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="4050929301" Name="Materials" ObjectPath="\Switches\Default Work Unit\Materials" GUID="{4BE7164B-3838-470D-9B69-1A561DD7C48B}">
@@ -366,5 +367,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9F8C6511-5230-09D4-9085-DEA58110CCBB}</FileHash>
+	<FileHash>{B3E37B4C-06D9-9EDB-D5AD-0EADC9B5C846}</FileHash>
 </SoundBanksInfo>
