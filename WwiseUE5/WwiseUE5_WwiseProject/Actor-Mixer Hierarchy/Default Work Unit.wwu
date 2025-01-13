@@ -2312,6 +2312,7 @@
 				</RandomSequenceContainer>
 				<Sound Name="Bach_Organ" ID="{17937384-E054-441F-AC82-274AC3F2B9EC}" ShortID="791058503">
 					<PropertyList>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -6086,6 +6087,18 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grass_Jump" ID="{B88FDD37-2F7E-49B8-B0D0-6C89371F9D45}" ShortID="1013350306">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>17</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
@@ -6095,33 +6108,6 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="grass_jump_1" ID="{4E0CA603-F013-48B0-B578-804D27B9C72E}" ShortID="61752440">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="grass_jump_1" ID="{B64A4826-D76B-4CB3-9C79-A77AAB55A317}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.0370517857142857"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.367192696886447"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>grass_jump_1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="66612505"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="grass_jump_1" ID="{B64A4826-D76B-4CB3-9C79-A77AAB55A317}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="grass_jump_2" ID="{ABFEA1F3-34B0-4C46-AD17-4A7B75A4A1B8}" ShortID="965576498">
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -6178,6 +6164,105 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood_Jump" ID="{2572CBF6-3149-4816-943F-6BFEB88249FB}" ShortID="669585844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="wood_jump_1" ID="{38356C8C-C804-4A28-8C73-50D94F4DD7C1}" ShortID="76405362">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_jump_1" ID="{A4747DE4-A360-4915-B231-FDE3772272D6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00384426341730559"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.040578336071559"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0106785094925155"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.320355284775465"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>wood_jump_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="14059820"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_jump_1" ID="{A4747DE4-A360-4915-B231-FDE3772272D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="wood_jump_2" ID="{D18DA75E-2D21-4C4D-81EA-65E537C422B1}" ShortID="464972638">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_jump_2" ID="{2BBE1D4C-07AD-459F-BFA3-34E8F963EADB}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00673434647681636"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0486945052939029"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0108785596933187"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.40561486856517"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>wood_jump_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198891123"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_jump_2" ID="{2BBE1D4C-07AD-459F-BFA3-34E8F963EADB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="wood_jump_3" ID="{39865B01-129D-40F5-8AAD-BF053BBE2FCC}" ShortID="873399599">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{220FD982-678C-4360-8055-8144939E18CE}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{85E35B0F-5E4C-4B64-BAC4-DC2565304116}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="wood_jump_3" ID="{1A0AC751-BCC7-45B8-9F08-EF372666EFE5}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.00606393756845564"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0560914225082147"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.00303196878422782"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.330484597480832"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>wood_jump_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="230896951"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="wood_jump_3" ID="{1A0AC751-BCC7-45B8-9F08-EF372666EFE5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -6189,6 +6274,9 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Dirt_Jump" ID="{981EEE49-E3B1-48C3-A06D-305906D68B24}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood_Jump" ID="{2572CBF6-3149-4816-943F-6BFEB88249FB}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -6208,6 +6296,12 @@
 										<SwitchRef Name="Grass" ID="{79D3CBF0-C0AC-4508-A189-9CFA797C5353}"/>
 										<ItemList>
 											<ItemRef Name="Grass_Jump" ID="{B88FDD37-2F7E-49B8-B0D0-6C89371F9D45}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{B78810F8-B1EE-44DD-83B8-97DE219B0ED3}"/>
+										<ItemList>
+											<ItemRef Name="Wood_Jump" ID="{2572CBF6-3149-4816-943F-6BFEB88249FB}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
