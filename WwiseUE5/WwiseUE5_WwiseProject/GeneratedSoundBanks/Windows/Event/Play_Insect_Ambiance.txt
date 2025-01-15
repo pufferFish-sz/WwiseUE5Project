@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1318667601	Play_Insect_Ambiance			\Default Work Unit\Play_Insect_Ambiance	
+

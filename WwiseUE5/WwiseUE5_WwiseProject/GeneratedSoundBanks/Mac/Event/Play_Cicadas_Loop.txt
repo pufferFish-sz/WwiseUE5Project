@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	586947743	Play_Cicadas_Loop			\Default Work Unit\Play_Cicadas_Loop	
+

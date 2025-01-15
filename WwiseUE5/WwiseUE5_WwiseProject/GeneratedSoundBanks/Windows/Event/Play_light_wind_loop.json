@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
     "Language": "SFX",
-    "Hash": "{8738F5B5-98B9-7401-E78E-37FE47816398}",
+    "Hash": "{D5ED70A7-5133-F045-31BE-387B253BCB9A}",
     "ObjectPath": "Play_light_wind_loop",
     "ShortName": "Play_light_wind_loop",
     "Path": "Event/Play_light_wind_loop.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{277A0D30-CA59-8CF8-8BB3-8083D1BD281F}"
+  "FileHash": "{24EA2B49-B46E-058F-2479-4003C249527C}"
  }
 }

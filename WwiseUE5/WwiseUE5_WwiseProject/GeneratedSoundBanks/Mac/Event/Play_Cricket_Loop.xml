@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1851862472" Type="Event" GUID="{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}" Language="SFX" Hash="{F575B3F3-A774-3D9A-62CB-7C26876422F2}">
+			<ObjectPath>Play_Cricket_Loop</ObjectPath>
+			<ShortName>Play_Cricket_Loop</ShortName>
+			<Path>Event/Play_Cricket_Loop.bnk</Path>
+			<Media>
+				<File Id="431042561" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cricket_Loop.wav</ShortName>
+					<Path>Media/431042561.wem</Path>
+					<CachePath>SFX/Cricket_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1851862472" Name="Play_Cricket_Loop" ObjectPath="\Events\Default Work Unit\Play_Cricket_Loop" GUID="{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="431042561"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2568407992" Name="Church" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Church" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F4566A0B-7D10-B737-E040-7E2EA2A39C04}</FileHash>
+</SoundBanksInfo>

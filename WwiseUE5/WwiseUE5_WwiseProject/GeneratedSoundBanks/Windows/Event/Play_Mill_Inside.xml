@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="933981719" Type="Event" GUID="{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}" Language="SFX" Hash="{C67749DD-F877-813F-4E88-82771AF6A624}">
+			<ObjectPath>Play_Mill_Inside</ObjectPath>
+			<ShortName>Play_Mill_Inside</ShortName>
+			<Path>Event/Play_Mill_Inside.bnk</Path>
+			<Media>
+				<File Id="229570301" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_4.wav</ShortName>
+					<Path>Media/229570301.wem</Path>
+					<CachePath>SFX/Magic_4_67515FA8.wem</CachePath>
+				</File>
+				<File Id="338709869" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mill.wav</ShortName>
+					<Path>Media/338709869.wem</Path>
+					<CachePath>SFX/Mill_11A93380.wem</CachePath>
+				</File>
+				<File Id="703158522" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_2.wav</ShortName>
+					<Path>Media/703158522.wem</Path>
+					<CachePath>SFX/Magic_2_BAB9EA63.wem</CachePath>
+				</File>
+				<File Id="950007665" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_5.wav</ShortName>
+					<Path>Media/950007665.wem</Path>
+					<CachePath>SFX/Magic_5_E89A7CB5.wem</CachePath>
+				</File>
+				<File Id="1032101773" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_3.wav</ShortName>
+					<Path>Media/1032101773.wem</Path>
+					<CachePath>SFX/Magic_3_7E68F18C.wem</CachePath>
+				</File>
+				<File Id="1042225005" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_1.wav</ShortName>
+					<Path>Media/1042225005.wem</Path>
+					<CachePath>SFX/Magic_1_1A7F2762.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="933981719" Name="Play_Mill_Inside" ObjectPath="\Events\Default Work Unit\Play_Mill_Inside" GUID="{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}" MaxAttenuation="800" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="229570301"/>
+						<MediaRef Id="338709869"/>
+						<MediaRef Id="703158522"/>
+						<MediaRef Id="950007665"/>
+						<MediaRef Id="1032101773"/>
+						<MediaRef Id="1042225005"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{309D6DC4-CFE8-86D5-2C50-6EC64F7C2A27}</FileHash>
+</SoundBanksInfo>

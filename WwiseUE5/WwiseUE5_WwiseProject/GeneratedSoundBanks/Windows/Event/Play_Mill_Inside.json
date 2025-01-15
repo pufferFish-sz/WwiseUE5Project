@@ -1,0 +1,107 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "933981719",
+    "Type": "Event",
+    "GUID": "{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}",
+    "Language": "SFX",
+    "Hash": "{C67749DD-F877-813F-4E88-82771AF6A624}",
+    "ObjectPath": "Play_Mill_Inside",
+    "ShortName": "Play_Mill_Inside",
+    "Path": "Event/Play_Mill_Inside.bnk",
+    "Media": [
+     {
+      "Id": "229570301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_4.wav",
+      "Path": "Media/229570301.wem",
+      "CachePath": "SFX/Magic_4_67515FA8.wem"
+     },
+     {
+      "Id": "338709869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mill.wav",
+      "Path": "Media/338709869.wem",
+      "CachePath": "SFX/Mill_11A93380.wem"
+     },
+     {
+      "Id": "703158522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_2.wav",
+      "Path": "Media/703158522.wem",
+      "CachePath": "SFX/Magic_2_BAB9EA63.wem"
+     },
+     {
+      "Id": "950007665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_5.wav",
+      "Path": "Media/950007665.wem",
+      "CachePath": "SFX/Magic_5_E89A7CB5.wem"
+     },
+     {
+      "Id": "1032101773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_3.wav",
+      "Path": "Media/1032101773.wem",
+      "CachePath": "SFX/Magic_3_7E68F18C.wem"
+     },
+     {
+      "Id": "1042225005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_1.wav",
+      "Path": "Media/1042225005.wem",
+      "CachePath": "SFX/Magic_1_1A7F2762.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "933981719",
+      "Name": "Play_Mill_Inside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Mill_Inside",
+      "GUID": "{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}",
+      "MaxAttenuation": "800",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "229570301"
+       },
+       {
+        "Id": "338709869"
+       },
+       {
+        "Id": "703158522"
+       },
+       {
+        "Id": "950007665"
+       },
+       {
+        "Id": "1032101773"
+       },
+       {
+        "Id": "1042225005"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{63F8CAAA-129D-33F6-6EC9-D6F46F6623D6}"
+ }
+}

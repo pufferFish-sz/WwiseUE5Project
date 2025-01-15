@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1203770175",
+    "Type": "Event",
+    "GUID": "{24C0B240-1B58-41CC-94E6-943BF11E4AE5}",
+    "Language": "SFX",
+    "Hash": "{27219133-DF68-BF67-8B3A-2F67D873A880}",
+    "ObjectPath": "Play_Wild_Geese_Loop",
+    "ShortName": "Play_Wild_Geese_Loop",
+    "Path": "Event/Play_Wild_Geese_Loop.bnk",
+    "Media": [
+     {
+      "Id": "187378649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wild_Geese_Loop.wav",
+      "Path": "Media/187378649.wem",
+      "CachePath": "SFX/Wild_Geese_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1203770175",
+      "Name": "Play_Wild_Geese_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wild_Geese_Loop",
+      "GUID": "{24C0B240-1B58-41CC-94E6-943BF11E4AE5}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "187378649"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CDC0AE0B-2F0C-93DC-942E-5C7F86DF335E}"
+ }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1203770175" Type="Event" GUID="{24C0B240-1B58-41CC-94E6-943BF11E4AE5}" Language="SFX" Hash="{27219133-DF68-BF67-8B3A-2F67D873A880}">
+			<ObjectPath>Play_Wild_Geese_Loop</ObjectPath>
+			<ShortName>Play_Wild_Geese_Loop</ShortName>
+			<Path>Event/Play_Wild_Geese_Loop.bnk</Path>
+			<Media>
+				<File Id="187378649" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wild_Geese_Loop.wav</ShortName>
+					<Path>Media/187378649.wem</Path>
+					<CachePath>SFX/Wild_Geese_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1203770175" Name="Play_Wild_Geese_Loop" ObjectPath="\Events\Default Work Unit\Play_Wild_Geese_Loop" GUID="{24C0B240-1B58-41CC-94E6-943BF11E4AE5}" MaxAttenuation="1500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="187378649"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{530109C7-C622-E99B-F570-6CAB424CA68E}</FileHash>
+</SoundBanksInfo>

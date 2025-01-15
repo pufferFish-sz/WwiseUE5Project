@@ -14,6 +14,42 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "92597930",
+    "Type": "Event",
+    "GUID": "{AD3D1346-115E-4392-9722-603FE7B8930B}",
+    "Language": "SFX",
+    "Hash": "{CD66002A-E7BA-1A6F-65ED-621040E9D20F}",
+    "ObjectPath": "Play_Windmill_Outside",
+    "ShortName": "Play_Windmill_Outside",
+    "Path": "Event/Play_Windmill_Outside.bnk",
+    "Media": [
+     {
+      "Id": "347396931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Windmill_Outside.wav",
+      "Path": "Media/347396931.wem",
+      "CachePath": "SFX/Windmill_Outside_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "92597930",
+      "Name": "Play_Windmill_Outside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Windmill_Outside",
+      "GUID": "{AD3D1346-115E-4392-9722-603FE7B8930B}",
+      "MaxAttenuation": "5000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "347396931"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "491961918",
     "Type": "Bus",
     "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}",
@@ -28,6 +64,234 @@
       "Name": "Forest",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
       "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+     }
+    ]
+   },
+   {
+    "Id": "586947743",
+    "Type": "Event",
+    "GUID": "{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}",
+    "Language": "SFX",
+    "Hash": "{DABFC1E5-CCEB-5B9C-7F4D-4B85B125B21D}",
+    "ObjectPath": "Play_Cicadas_Loop",
+    "ShortName": "Play_Cicadas_Loop",
+    "Path": "Event/Play_Cicadas_Loop.bnk",
+    "Media": [
+     {
+      "Id": "784551093",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cicadas_Loop.wav",
+      "Path": "Media/784551093.wem",
+      "CachePath": "SFX/Cicadas_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "586947743",
+      "Name": "Play_Cicadas_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cicadas_Loop",
+      "GUID": "{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "784551093"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2568407992",
+        "Name": "Church",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+        "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "646429465",
+    "Type": "Event",
+    "GUID": "{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}",
+    "Language": "SFX",
+    "Hash": "{3E12FA0A-BF28-5693-2060-A700B8C5D234}",
+    "ObjectPath": "Play_Cricket_2_Loop",
+    "ShortName": "Play_Cricket_2_Loop",
+    "Path": "Event/Play_Cricket_2_Loop.bnk",
+    "Media": [
+     {
+      "Id": "752268815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cricket_2_Loop.wav",
+      "Path": "Media/752268815.wem",
+      "CachePath": "SFX/Cricket_2_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "646429465",
+      "Name": "Play_Cricket_2_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cricket_2_Loop",
+      "GUID": "{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "752268815"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2568407992",
+        "Name": "Church",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+        "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "933981719",
+    "Type": "Event",
+    "GUID": "{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}",
+    "Language": "SFX",
+    "Hash": "{C67749DD-F877-813F-4E88-82771AF6A624}",
+    "ObjectPath": "Play_Mill_Inside",
+    "ShortName": "Play_Mill_Inside",
+    "Path": "Event/Play_Mill_Inside.bnk",
+    "Media": [
+     {
+      "Id": "229570301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_4.wav",
+      "Path": "Media/229570301.wem",
+      "CachePath": "SFX/Magic_4_67515FA8.wem"
+     },
+     {
+      "Id": "338709869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Mill.wav",
+      "Path": "Media/338709869.wem",
+      "CachePath": "SFX/Mill_11A93380.wem"
+     },
+     {
+      "Id": "703158522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_2.wav",
+      "Path": "Media/703158522.wem",
+      "CachePath": "SFX/Magic_2_BAB9EA63.wem"
+     },
+     {
+      "Id": "950007665",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_5.wav",
+      "Path": "Media/950007665.wem",
+      "CachePath": "SFX/Magic_5_E89A7CB5.wem"
+     },
+     {
+      "Id": "1032101773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_3.wav",
+      "Path": "Media/1032101773.wem",
+      "CachePath": "SFX/Magic_3_7E68F18C.wem"
+     },
+     {
+      "Id": "1042225005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Magic_1.wav",
+      "Path": "Media/1042225005.wem",
+      "CachePath": "SFX/Magic_1_1A7F2762.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "933981719",
+      "Name": "Play_Mill_Inside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Mill_Inside",
+      "GUID": "{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}",
+      "MaxAttenuation": "800",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "229570301"
+       },
+       {
+        "Id": "338709869"
+       },
+       {
+        "Id": "703158522"
+       },
+       {
+        "Id": "950007665"
+       },
+       {
+        "Id": "1032101773"
+       },
+       {
+        "Id": "1042225005"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1203770175",
+    "Type": "Event",
+    "GUID": "{24C0B240-1B58-41CC-94E6-943BF11E4AE5}",
+    "Language": "SFX",
+    "Hash": "{27219133-DF68-BF67-8B3A-2F67D873A880}",
+    "ObjectPath": "Play_Wild_Geese_Loop",
+    "ShortName": "Play_Wild_Geese_Loop",
+    "Path": "Event/Play_Wild_Geese_Loop.bnk",
+    "Media": [
+     {
+      "Id": "187378649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Wild_Geese_Loop.wav",
+      "Path": "Media/187378649.wem",
+      "CachePath": "SFX/Wild_Geese_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1203770175",
+      "Name": "Play_Wild_Geese_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wild_Geese_Loop",
+      "GUID": "{24C0B240-1B58-41CC-94E6-943BF11E4AE5}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "187378649"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Forest",
+        "GUID": "{BBFFE3F1-0D37-4859-ADD5-650070190771}"
+       }
+      ]
      }
     ]
    },
@@ -65,6 +329,42 @@
         }
        ]
       }
+     }
+    ]
+   },
+   {
+    "Id": "1318667601",
+    "Type": "Event",
+    "GUID": "{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}",
+    "Language": "SFX",
+    "Hash": "{D55FBDEC-660F-76C8-04BA-5F706E8CDFF5}",
+    "ObjectPath": "Play_Insect_Ambiance",
+    "ShortName": "Play_Insect_Ambiance",
+    "Path": "Event/Play_Insect_Ambiance.bnk",
+    "Media": [
+     {
+      "Id": "381449864",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Insect_Ambiance.wav",
+      "Path": "Media/381449864.wem",
+      "CachePath": "SFX/Insect_Ambiance_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1318667601",
+      "Name": "Play_Insect_Ambiance",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Insect_Ambiance",
+      "GUID": "{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}",
+      "MaxAttenuation": "1500",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "381449864"
+       }
+      ]
      }
     ]
    },
@@ -234,6 +534,50 @@
     ]
    },
    {
+    "Id": "1851862472",
+    "Type": "Event",
+    "GUID": "{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}",
+    "Language": "SFX",
+    "Hash": "{F575B3F3-A774-3D9A-62CB-7C26876422F2}",
+    "ObjectPath": "Play_Cricket_Loop",
+    "ShortName": "Play_Cricket_Loop",
+    "Path": "Event/Play_Cricket_Loop.bnk",
+    "Media": [
+     {
+      "Id": "431042561",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cricket_Loop.wav",
+      "Path": "Media/431042561.wem",
+      "CachePath": "SFX/Cricket_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1851862472",
+      "Name": "Play_Cricket_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cricket_Loop",
+      "GUID": "{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "431042561"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2568407992",
+        "Name": "Church",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+        "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "2190861365",
     "Type": "Bus",
     "GUID": "{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}",
@@ -256,7 +600,7 @@
     "Type": "Event",
     "GUID": "{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}",
     "Language": "SFX",
-    "Hash": "{8738F5B5-98B9-7401-E78E-37FE47816398}",
+    "Hash": "{D5ED70A7-5133-F045-31BE-387B253BCB9A}",
     "ObjectPath": "Play_light_wind_loop",
     "ShortName": "Play_light_wind_loop",
     "Path": "Event/Play_light_wind_loop.bnk",
@@ -1230,7 +1574,7 @@
     "Type": "User",
     "GUID": "{E03CDCD9-0F85-4887-AC18-C9AF5AB736F8}",
     "Language": "SFX",
-    "Hash": "{DC50605B-6D3A-2937-305D-F35C682FE50A}",
+    "Hash": "{14916A07-3C2D-BC2E-2385-5DF6103E92D9}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MedivalVillage",
     "ShortName": "MedivalVillage",
     "Path": "MedivalVillage.bnk",
@@ -1241,7 +1585,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_jump_1.wav",
-      "CachePath": "SFX/wood_jump_1_8F24001B.wem"
+      "CachePath": "SFX/wood_jump_1_4AC8D357.wem"
      },
      {
       "Id": "16387454",
@@ -1345,7 +1689,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_jump_2.wav",
-      "CachePath": "SFX/wood_jump_2_2EC7ED21.wem"
+      "CachePath": "SFX/wood_jump_2_61EA73AF.wem"
      },
      {
       "Id": "207998397",
@@ -1369,7 +1713,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "wood_jump_3.wav",
-      "CachePath": "SFX/wood_jump_3_9BC5A510.wem"
+      "CachePath": "SFX/wood_jump_3_4E1F5C76.wem"
      },
      {
       "Id": "237159989",
@@ -2022,6 +2366,6 @@
     ]
    }
   ],
-  "FileHash": "{FD1FCCCC-EEBC-C315-5EDF-68F8229E7DC1}"
+  "FileHash": "{732E094F-A07C-0C1B-846E-0F3354EB8D74}"
  }
 }

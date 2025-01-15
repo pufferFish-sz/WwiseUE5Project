@@ -9,6 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="92597930" Type="Event" GUID="{AD3D1346-115E-4392-9722-603FE7B8930B}" Language="SFX" Hash="{CD66002A-E7BA-1A6F-65ED-621040E9D20F}">
+			<ObjectPath>Play_Windmill_Outside</ObjectPath>
+			<ShortName>Play_Windmill_Outside</ShortName>
+			<Path>Event/Play_Windmill_Outside.bnk</Path>
+			<Media>
+				<File Id="347396931" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Windmill_Outside.wav</ShortName>
+					<Path>Media/347396931.wem</Path>
+					<CachePath>SFX/Windmill_Outside_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="92597930" Name="Play_Windmill_Outside" ObjectPath="\Events\Default Work Unit\Play_Windmill_Outside" GUID="{AD3D1346-115E-4392-9722-603FE7B8930B}" MaxAttenuation="5000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="347396931"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="491961918" Type="Bus" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}" Language="SFX" Hash="{DC8AD995-2231-8028-C1D1-39F712BE2F8E}">
 			<ObjectPath>Forest</ObjectPath>
 			<ShortName>Forest</ShortName>
@@ -16,6 +35,121 @@
 			<AuxBusses>
 				<AuxBus Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
 			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="586947743" Type="Event" GUID="{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}" Language="SFX" Hash="{DABFC1E5-CCEB-5B9C-7F4D-4B85B125B21D}">
+			<ObjectPath>Play_Cicadas_Loop</ObjectPath>
+			<ShortName>Play_Cicadas_Loop</ShortName>
+			<Path>Event/Play_Cicadas_Loop.bnk</Path>
+			<Media>
+				<File Id="784551093" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cicadas_Loop.wav</ShortName>
+					<Path>Media/784551093.wem</Path>
+					<CachePath>SFX/Cicadas_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="586947743" Name="Play_Cicadas_Loop" ObjectPath="\Events\Default Work Unit\Play_Cicadas_Loop" GUID="{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="784551093"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2568407992" Name="Church" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Church" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="646429465" Type="Event" GUID="{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}" Language="SFX" Hash="{3E12FA0A-BF28-5693-2060-A700B8C5D234}">
+			<ObjectPath>Play_Cricket_2_Loop</ObjectPath>
+			<ShortName>Play_Cricket_2_Loop</ShortName>
+			<Path>Event/Play_Cricket_2_Loop.bnk</Path>
+			<Media>
+				<File Id="752268815" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cricket_2_Loop.wav</ShortName>
+					<Path>Media/752268815.wem</Path>
+					<CachePath>SFX/Cricket_2_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="646429465" Name="Play_Cricket_2_Loop" ObjectPath="\Events\Default Work Unit\Play_Cricket_2_Loop" GUID="{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="752268815"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2568407992" Name="Church" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Church" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="933981719" Type="Event" GUID="{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}" Language="SFX" Hash="{C67749DD-F877-813F-4E88-82771AF6A624}">
+			<ObjectPath>Play_Mill_Inside</ObjectPath>
+			<ShortName>Play_Mill_Inside</ShortName>
+			<Path>Event/Play_Mill_Inside.bnk</Path>
+			<Media>
+				<File Id="229570301" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_4.wav</ShortName>
+					<Path>Media/229570301.wem</Path>
+					<CachePath>SFX/Magic_4_67515FA8.wem</CachePath>
+				</File>
+				<File Id="338709869" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mill.wav</ShortName>
+					<Path>Media/338709869.wem</Path>
+					<CachePath>SFX/Mill_11A93380.wem</CachePath>
+				</File>
+				<File Id="703158522" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_2.wav</ShortName>
+					<Path>Media/703158522.wem</Path>
+					<CachePath>SFX/Magic_2_BAB9EA63.wem</CachePath>
+				</File>
+				<File Id="950007665" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_5.wav</ShortName>
+					<Path>Media/950007665.wem</Path>
+					<CachePath>SFX/Magic_5_E89A7CB5.wem</CachePath>
+				</File>
+				<File Id="1032101773" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_3.wav</ShortName>
+					<Path>Media/1032101773.wem</Path>
+					<CachePath>SFX/Magic_3_7E68F18C.wem</CachePath>
+				</File>
+				<File Id="1042225005" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Magic_1.wav</ShortName>
+					<Path>Media/1042225005.wem</Path>
+					<CachePath>SFX/Magic_1_1A7F2762.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="933981719" Name="Play_Mill_Inside" ObjectPath="\Events\Default Work Unit\Play_Mill_Inside" GUID="{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}" MaxAttenuation="800" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="229570301"/>
+						<MediaRef Id="338709869"/>
+						<MediaRef Id="703158522"/>
+						<MediaRef Id="950007665"/>
+						<MediaRef Id="1032101773"/>
+						<MediaRef Id="1042225005"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1203770175" Type="Event" GUID="{24C0B240-1B58-41CC-94E6-943BF11E4AE5}" Language="SFX" Hash="{27219133-DF68-BF67-8B3A-2F67D873A880}">
+			<ObjectPath>Play_Wild_Geese_Loop</ObjectPath>
+			<ShortName>Play_Wild_Geese_Loop</ShortName>
+			<Path>Event/Play_Wild_Geese_Loop.bnk</Path>
+			<Media>
+				<File Id="187378649" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Wild_Geese_Loop.wav</ShortName>
+					<Path>Media/187378649.wem</Path>
+					<CachePath>SFX/Wild_Geese_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1203770175" Name="Play_Wild_Geese_Loop" ObjectPath="\Events\Default Work Unit\Play_Wild_Geese_Loop" GUID="{24C0B240-1B58-41CC-94E6-943BF11E4AE5}" MaxAttenuation="1500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="187378649"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="491961918" Name="Forest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Forest" GUID="{BBFFE3F1-0D37-4859-ADD5-650070190771}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1245295233" Type="Bus" GUID="{A5D0EFF3-707A-4F76-A361-5FEACEC8D354}" Language="SFX" Hash="{1D5B681B-CC81-CEAB-1509-ECFB01C1FF1A}">
 			<ObjectPath>MediumRoom</ObjectPath>
@@ -35,6 +169,25 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="1318667601" Type="Event" GUID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}" Language="SFX" Hash="{D55FBDEC-660F-76C8-04BA-5F706E8CDFF5}">
+			<ObjectPath>Play_Insect_Ambiance</ObjectPath>
+			<ShortName>Play_Insect_Ambiance</ShortName>
+			<Path>Event/Play_Insect_Ambiance.bnk</Path>
+			<Media>
+				<File Id="381449864" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Insect_Ambiance.wav</ShortName>
+					<Path>Media/381449864.wem</Path>
+					<CachePath>SFX/Insect_Ambiance_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1318667601" Name="Play_Insect_Ambiance" ObjectPath="\Events\Default Work Unit\Play_Insect_Ambiance" GUID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}" MaxAttenuation="1500" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="381449864"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{22FC7C71-BBED-51AA-FEB0-6CE39B81D3DA}">
 			<ObjectPath>Init</ObjectPath>
@@ -94,6 +247,28 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="1851862472" Type="Event" GUID="{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}" Language="SFX" Hash="{F575B3F3-A774-3D9A-62CB-7C26876422F2}">
+			<ObjectPath>Play_Cricket_Loop</ObjectPath>
+			<ShortName>Play_Cricket_Loop</ShortName>
+			<Path>Event/Play_Cricket_Loop.bnk</Path>
+			<Media>
+				<File Id="431042561" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cricket_Loop.wav</ShortName>
+					<Path>Media/431042561.wem</Path>
+					<CachePath>SFX/Cricket_Loop_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1851862472" Name="Play_Cricket_Loop" ObjectPath="\Events\Default Work Unit\Play_Cricket_Loop" GUID="{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}" MaxAttenuation="1000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="431042561"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="2568407992" Name="Church" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Church" GUID="{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"/>
+					</AuxBusRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="2190861365" Type="Bus" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}" Language="SFX" Hash="{10BCAFF4-50E7-8E7E-8F39-BAA24C1D91CE}">
 			<ObjectPath>LakeSide</ObjectPath>
 			<ShortName>LakeSide</ShortName>
@@ -102,7 +277,7 @@
 				<AuxBus Id="2190861365" Name="LakeSide" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\LakeSide" GUID="{CBE8B94B-2D00-4BDE-A1B5-EAE241CC28C5}"/>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{8738F5B5-98B9-7401-E78E-37FE47816398}">
+		<SoundBank Id="2308691488" Type="Event" GUID="{CCF7023F-EF33-4659-BDE1-D9EFEC396DB5}" Language="SFX" Hash="{D5ED70A7-5133-F045-31BE-387B253BCB9A}">
 			<ObjectPath>Play_light_wind_loop</ObjectPath>
 			<ShortName>Play_light_wind_loop</ShortName>
 			<Path>Event/Play_light_wind_loop.bnk</Path>
@@ -524,14 +699,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3343390029" Type="User" GUID="{E03CDCD9-0F85-4887-AC18-C9AF5AB736F8}" Language="SFX" Hash="{DC50605B-6D3A-2937-305D-F35C682FE50A}">
+		<SoundBank Id="3343390029" Type="User" GUID="{E03CDCD9-0F85-4887-AC18-C9AF5AB736F8}" Language="SFX" Hash="{14916A07-3C2D-BC2E-2385-5DF6103E92D9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\MedivalVillage</ObjectPath>
 			<ShortName>MedivalVillage</ShortName>
 			<Path>MedivalVillage.bnk</Path>
 			<Media>
 				<File Id="14059820" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>wood_jump_1.wav</ShortName>
-					<CachePath>SFX/wood_jump_1_8F24001B.wem</CachePath>
+					<CachePath>SFX/wood_jump_1_4AC8D357.wem</CachePath>
 				</File>
 				<File Id="16387454" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dirt_jump_3.wav</ShortName>
@@ -583,7 +758,7 @@
 				</File>
 				<File Id="198891123" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>wood_jump_2.wav</ShortName>
-					<CachePath>SFX/wood_jump_2_2EC7ED21.wem</CachePath>
+					<CachePath>SFX/wood_jump_2_61EA73AF.wem</CachePath>
 				</File>
 				<File Id="207998397" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Bell_Strike.wav</ShortName>
@@ -595,7 +770,7 @@
 				</File>
 				<File Id="230896951" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>wood_jump_3.wav</ShortName>
-					<CachePath>SFX/wood_jump_3_9BC5A510.wem</CachePath>
+					<CachePath>SFX/wood_jump_3_4E1F5C76.wem</CachePath>
 				</File>
 				<File Id="237159989" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dirt_Step_5.wav</ShortName>
@@ -879,5 +1054,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{482333DB-2202-C6FE-38A8-18173BAB8D2D}</FileHash>
+	<FileHash>{CEF71B51-BBB1-8D46-EF9E-FA54B098E783}</FileHash>
 </SoundBanksInfo>

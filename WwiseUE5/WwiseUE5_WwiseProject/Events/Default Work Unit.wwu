@@ -319,6 +319,86 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Wild_Geese_Loop" ID="{24C0B240-1B58-41CC-94E6-943BF11E4AE5}">
+					<ChildrenList>
+						<Action Name="" ID="{5333E4CC-B6F4-4BA0-8EAE-2B4DE662A0A7}" ShortID="260812988">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wild_Geese_Loop" ID="{25E668E3-4192-4D0D-836D-DCF7A7C48C7C}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Mill_Inside" ID="{360341E1-7E2F-4F78-A0E9-3E3F8BF64E3F}">
+					<ChildrenList>
+						<Action Name="" ID="{96D4E78E-FD58-4EAA-834A-EF5E777D65FA}" ShortID="809035370">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mill_Inside" ID="{21871BB5-74DD-4AB6-A6FB-9E1921DB19A2}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Windmill_Outside" ID="{AD3D1346-115E-4392-9722-603FE7B8930B}">
+					<ChildrenList>
+						<Action Name="" ID="{03041588-9174-40F6-8D29-5041CC681AA3}" ShortID="773839608">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Windmill_Outside" ID="{6D33759B-A5B9-440D-9E91-7F0660F82A07}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cicadas_Loop" ID="{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}">
+					<ChildrenList>
+						<Action Name="" ID="{F212BB5C-DF4F-4667-ADE9-EA510E02A086}" ShortID="998618873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cicadas_Loop" ID="{DA0F87D9-46DC-4CDE-AD96-ECD0A7949A33}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cricket_2_Loop" ID="{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}">
+					<ChildrenList>
+						<Action Name="" ID="{1BE69FC9-076E-4481-BC8C-BC5EB54B022D}" ShortID="713212099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cricket_2_Loop" ID="{749484A0-5AB2-4E19-90BE-B47EDB5295B2}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cricket_Loop" ID="{E81F52CD-2FDF-4FA3-ADF7-8C7AA8325636}">
+					<ChildrenList>
+						<Action Name="" ID="{E889829A-CBCC-4D29-A14F-F3835C0E2D6D}" ShortID="1023818308">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cricket_Loop" ID="{BB2F382F-91B5-493C-893B-C0FCC54CE7E3}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Insect_Ambiance" ID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}">
+					<ChildrenList>
+						<Action Name="" ID="{18AC0C1E-24A6-4217-91A1-900D556630BA}" ShortID="381693832">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Insect_Ambiance" ID="{1E946C3B-6B08-44C0-9B13-F67DA761A2D1}" WorkUnitID="{52CABEF3-37B6-4357-BE9D-FFE1868C6732}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

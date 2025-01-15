@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "586947743",
+    "Type": "Event",
+    "GUID": "{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}",
+    "Language": "SFX",
+    "Hash": "{DABFC1E5-CCEB-5B9C-7F4D-4B85B125B21D}",
+    "ObjectPath": "Play_Cicadas_Loop",
+    "ShortName": "Play_Cicadas_Loop",
+    "Path": "Event/Play_Cicadas_Loop.bnk",
+    "Media": [
+     {
+      "Id": "784551093",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cicadas_Loop.wav",
+      "Path": "Media/784551093.wem",
+      "CachePath": "SFX/Cicadas_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "586947743",
+      "Name": "Play_Cicadas_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cicadas_Loop",
+      "GUID": "{18F9B67A-D682-45DB-9E3F-BBBDF2BF4ADC}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "784551093"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2568407992",
+        "Name": "Church",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+        "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{21988EE7-9872-083A-0513-67EF9A9CE251}"
+ }
+}

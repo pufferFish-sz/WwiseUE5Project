@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "92597930",
+    "Type": "Event",
+    "GUID": "{AD3D1346-115E-4392-9722-603FE7B8930B}",
+    "Language": "SFX",
+    "Hash": "{CD66002A-E7BA-1A6F-65ED-621040E9D20F}",
+    "ObjectPath": "Play_Windmill_Outside",
+    "ShortName": "Play_Windmill_Outside",
+    "Path": "Event/Play_Windmill_Outside.bnk",
+    "Media": [
+     {
+      "Id": "347396931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Windmill_Outside.wav",
+      "Path": "Media/347396931.wem",
+      "CachePath": "SFX/Windmill_Outside_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "92597930",
+      "Name": "Play_Windmill_Outside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Windmill_Outside",
+      "GUID": "{AD3D1346-115E-4392-9722-603FE7B8930B}",
+      "MaxAttenuation": "5000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "347396931"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{FB8EAD27-E767-5636-E2A9-05F5853479EC}"
+ }
+}

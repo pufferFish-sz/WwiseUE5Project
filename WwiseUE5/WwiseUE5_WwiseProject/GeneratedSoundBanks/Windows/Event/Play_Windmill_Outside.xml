@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="92597930" Type="Event" GUID="{AD3D1346-115E-4392-9722-603FE7B8930B}" Language="SFX" Hash="{CD66002A-E7BA-1A6F-65ED-621040E9D20F}">
+			<ObjectPath>Play_Windmill_Outside</ObjectPath>
+			<ShortName>Play_Windmill_Outside</ShortName>
+			<Path>Event/Play_Windmill_Outside.bnk</Path>
+			<Media>
+				<File Id="347396931" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Windmill_Outside.wav</ShortName>
+					<Path>Media/347396931.wem</Path>
+					<CachePath>SFX/Windmill_Outside_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="92597930" Name="Play_Windmill_Outside" ObjectPath="\Events\Default Work Unit\Play_Windmill_Outside" GUID="{AD3D1346-115E-4392-9722-603FE7B8930B}" MaxAttenuation="5000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="347396931"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{AFC8E5C3-2DD1-3FC8-F6E8-8D52B9431061}</FileHash>
+</SoundBanksInfo>

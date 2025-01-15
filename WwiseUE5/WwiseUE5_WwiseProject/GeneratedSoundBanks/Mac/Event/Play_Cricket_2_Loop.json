@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "646429465",
+    "Type": "Event",
+    "GUID": "{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}",
+    "Language": "SFX",
+    "Hash": "{3E12FA0A-BF28-5693-2060-A700B8C5D234}",
+    "ObjectPath": "Play_Cricket_2_Loop",
+    "ShortName": "Play_Cricket_2_Loop",
+    "Path": "Event/Play_Cricket_2_Loop.bnk",
+    "Media": [
+     {
+      "Id": "752268815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cricket_2_Loop.wav",
+      "Path": "Media/752268815.wem",
+      "CachePath": "SFX/Cricket_2_Loop_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "646429465",
+      "Name": "Play_Cricket_2_Loop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cricket_2_Loop",
+      "GUID": "{1AAAC3EE-794D-4FDE-8726-F70EA26A2EA8}",
+      "MaxAttenuation": "1000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "752268815"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "2568407992",
+        "Name": "Church",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Church",
+        "GUID": "{2AA83B0D-7D5F-4B72-9093-A738B2E90013}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{338D4AD0-4E7F-C29E-9A6E-0B050F79B10F}"
+ }
+}
