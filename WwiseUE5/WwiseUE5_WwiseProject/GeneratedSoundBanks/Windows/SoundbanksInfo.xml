@@ -170,7 +170,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="1318667601" Type="Event" GUID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}" Language="SFX" Hash="{D55FBDEC-660F-76C8-04BA-5F706E8CDFF5}">
+		<SoundBank Id="1318667601" Type="Event" GUID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}" Language="SFX" Hash="{94E9E266-5231-7E87-20A5-24EBC0EDD137}">
 			<ObjectPath>Play_Insect_Ambiance</ObjectPath>
 			<ShortName>Play_Insect_Ambiance</ShortName>
 			<Path>Event/Play_Insect_Ambiance.bnk</Path>
@@ -182,7 +182,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1318667601" Name="Play_Insect_Ambiance" ObjectPath="\Events\Default Work Unit\Play_Insect_Ambiance" GUID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}" MaxAttenuation="1500" DurationType="Infinite">
+				<Event Id="1318667601" Name="Play_Insect_Ambiance" ObjectPath="\Events\Default Work Unit\Play_Insect_Ambiance" GUID="{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}" MaxAttenuation="800" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="381449864"/>
 					</MediaRefs>
@@ -334,7 +334,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{4A879B48-D00D-92EC-C2FC-22A79090E937}">
+		<SoundBank Id="3157003241" Type="User" GUID="{F999ADF2-E7D0-42E2-9B3F-938D678971E0}" Language="SFX" Hash="{2D5F5801-7823-A421-811B-DB5D391B77A6}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Test</ObjectPath>
 			<ShortName>Test</ShortName>
 			<Path>Test.bnk</Path>
@@ -1054,5 +1054,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEF71B51-BBB1-8D46-EF9E-FA54B098E783}</FileHash>
+	<FileHash>{14C414EA-7772-494A-11C0-08821597FFDB}</FileHash>
 </SoundBanksInfo>

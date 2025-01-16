@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}",
     "Language": "SFX",
-    "Hash": "{D55FBDEC-660F-76C8-04BA-5F706E8CDFF5}",
+    "Hash": "{94E9E266-5231-7E87-20A5-24EBC0EDD137}",
     "ObjectPath": "Play_Insect_Ambiance",
     "ShortName": "Play_Insect_Ambiance",
     "Path": "Event/Play_Insect_Ambiance.bnk",
@@ -31,7 +31,7 @@
       "Name": "Play_Insect_Ambiance",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Insect_Ambiance",
       "GUID": "{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "800",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{92AA563F-739D-869A-2F7C-2C093F99892C}"
+  "FileHash": "{E510A7C6-952D-86A9-9C19-6362DCD6081F}"
  }
 }

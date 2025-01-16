@@ -337,7 +337,7 @@
     "Type": "Event",
     "GUID": "{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}",
     "Language": "SFX",
-    "Hash": "{D55FBDEC-660F-76C8-04BA-5F706E8CDFF5}",
+    "Hash": "{94E9E266-5231-7E87-20A5-24EBC0EDD137}",
     "ObjectPath": "Play_Insect_Ambiance",
     "ShortName": "Play_Insect_Ambiance",
     "Path": "Event/Play_Insect_Ambiance.bnk",
@@ -358,7 +358,7 @@
       "Name": "Play_Insect_Ambiance",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Insect_Ambiance",
       "GUID": "{A9A3B8C1-58DF-45CC-B528-16DC8663F4C7}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "800",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -710,7 +710,7 @@
     "Type": "User",
     "GUID": "{F999ADF2-E7D0-42E2-9B3F-938D678971E0}",
     "Language": "SFX",
-    "Hash": "{4A879B48-D00D-92EC-C2FC-22A79090E937}",
+    "Hash": "{2D5F5801-7823-A421-811B-DB5D391B77A6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Test",
     "ShortName": "Test",
     "Path": "Test.bnk",
@@ -2366,6 +2366,6 @@
     ]
    }
   ],
-  "FileHash": "{732E094F-A07C-0C1B-846E-0F3354EB8D74}"
+  "FileHash": "{17649793-1521-FFB9-FFB2-4DE1301B8C16}"
  }
 }
